@@ -1,0 +1,216 @@
+# test config mushra page, no waveform, 3 conditions,  looping, anchor35, anchor 70
+
+
+testname: MUSHRA Niyazi
+testId: SHS598FinalProject
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+remoteService: service/write.php
+
+
+pages:
+
+    - type: generic
+      id: mushra_instructions
+      name: MUSHRA
+      content: The next pages show you some examples of MUSHRA listening tests. They are not in randomized order.    
+    -
+      - random   
+      -   
+        - type: mushra
+          id: sound1
+          name: MUSHRAM
+          content: this is a experimental test. 
+          showWaveform: true
+          enableLooping: false 
+          reference: configs/Niyazi/Normal/1/standard.wav
+          createAnchor35: false
+          createAnchor70: false
+          stimuli:
+               C1: configs/Niyazi/Normal/1/-3dB.wav
+               C2: configs/Niyazi/Normal/1/-6dB.wav
+               C3: configs/Niyazi/Normal/1/-9dB.wav
+               C4: configs/Niyazi/Normal/1/-12dB.wav
+               C5: configs/Niyazi/Normal/1/vdb.wav
+               C6: configs/Niyazi/Normal/1/anchor.wav
+      -   
+        - type: mushra
+          id: sound2
+          name: MUSHRAM
+          content: this is a experimental test. 
+          showWaveform: true
+          enableLooping: false 
+          reference: configs/Niyazi/Normal/2/standard.wav
+          createAnchor35: false
+          createAnchor70: false
+          stimuli:
+               C1: configs/Niyazi/Normal/2/-3dB.wav
+               C2: configs/Niyazi/Normal/2/-6dB.wav
+               C3: configs/Niyazi/Normal/2/-9dB.wav
+               C4: configs/Niyazi/Normal/2/-12dB.wav
+               C5: configs/Niyazi/Normal/2/vdb.wav
+               C6: configs/Niyazi/Normal/2/anchor.wav
+      -    
+        - type: mushra
+          id: sound3
+          name: MUSHRAM
+          content: this is a experimental test. 
+          showWaveform: true
+          enableLooping: false 
+          reference: configs/Niyazi/Normal/3/standard.wav
+          createAnchor35: false
+          createAnchor70: false
+          stimuli:
+               C1: configs/Niyazi/Normal/3/-3dB.wav
+               C2: configs/Niyazi/Normal/3/-6dB.wav
+               C3: configs/Niyazi/Normal/3/-9dB.wav
+               C4: configs/Niyazi/Normal/3/-12dB.wav
+               C5: configs/Niyazi/Normal/3/vdb.wav
+               C6: configs/Niyazi/Normal/3/anchor.wav
+      -  
+        - type: mushra
+          id: sound4
+          name: MUSHRAM
+          content: this is a experimental test. 
+          showWaveform: true
+          enableLooping: false 
+          reference: configs/Niyazi/Normal/4/standard.wav
+          createAnchor35: false
+          createAnchor70: false
+          stimuli:
+               C1: configs/Niyazi/Normal/4/-3dB.wav
+               C2: configs/Niyazi/Normal/4/-6dB.wav
+               C3: configs/Niyazi/Normal/4/-9dB.wav
+               C4: configs/Niyazi/Normal/4/-12dB.wav
+               C5: configs/Niyazi/Normal/4/vdb.wav
+               C6: configs/Niyazi/Normal/4/anchor.wav
+      -         
+        - type: mushra
+          id: sound5
+          name: MUSHRAM
+          content: this is a experimental test. 
+          showWaveform: true
+          enableLooping: false 
+          reference: configs/Niyazi/Normal/5/standard.wav
+          createAnchor35: false
+          createAnchor70: false
+          stimuli:
+               C1: configs/Niyazi/Normal/5/-3dB.wav
+               C2: configs/Niyazi/Normal/5/-6dB.wav
+               C3: configs/Niyazi/Normal/5/-9dB.wav
+               C4: configs/Niyazi/Normal/5/-12dB.wav
+               C5: configs/Niyazi/Normal/5/vdb.wav
+               C6: configs/Niyazi/Normal/5/anchor.wav
+      -  
+        - type: mushra
+          id: sound6
+          name: MUSHRAM
+          content: this is a experimental test. 
+          showWaveform: true
+          enableLooping: false 
+          reference: configs/Niyazi/Normal/6/standard.wav
+          createAnchor35: false
+          createAnchor70: false
+          stimuli:
+               C1: configs/Niyazi/Normal/6/-3dB.wav
+               C2: configs/Niyazi/Normal/6/-6dB.wav
+               C3: configs/Niyazi/Normal/6/-9dB.wav
+               C4: configs/Niyazi/Normal/6/-12dB.wav
+               C5: configs/Niyazi/Normal/6/vdb.wav
+               C6: configs/Niyazi/Normal/6/anchor.wav
+      -  
+        - type: mushra
+          id: sound7
+          name: MUSHRAM
+          content: this is a experimental test. 
+          showWaveform: true
+          enableLooping: false 
+          reference: configs/Niyazi/Normal/7/standard.wav
+          createAnchor35: false
+          createAnchor70: false
+          stimuli:
+               C1: configs/Niyazi/Normal/7/-3dB.wav
+               C2: configs/Niyazi/Normal/7/-6dB.wav
+               C3: configs/Niyazi/Normal/7/-9dB.wav
+               C4: configs/Niyazi/Normal/7/-12dB.wav
+               C5: configs/Niyazi/Normal/7/vdb.wav
+               C6: configs/Niyazi/Normal/7/anchor.wav
+      -  
+        - type: mushra
+          id: sound8
+          name: MUSHRAM
+          content: this is a experimental test. 
+          showWaveform: true
+          enableLooping: false 
+          reference: configs/Niyazi/Normal/8/standard.wav
+          createAnchor35: false
+          createAnchor70: false
+          stimuli:
+               C1: configs/Niyazi/Normal/8/-3dB.wav
+               C2: configs/Niyazi/Normal/8/-6dB.wav
+               C3: configs/Niyazi/Normal/8/-9dB.wav
+               C4: configs/Niyazi/Normal/8/-12dB.wav
+               C5: configs/Niyazi/Normal/8/vdb.wav
+               C6: configs/Niyazi/Normal/8/anchor.wav
+      -
+        - type: mushra
+          id: sound9
+          name: MUSHRAM
+          content: this is a experimental test. 
+          showWaveform: true
+          enableLooping: false 
+          reference: configs/Niyazi/Normal/9/standard.wav
+          createAnchor35: false
+          createAnchor70: false
+          stimuli:
+               C1: configs/Niyazi/Normal/9/-3dB.wav
+               C2: configs/Niyazi/Normal/9/-6dB.wav
+               C3: configs/Niyazi/Normal/9/-9dB.wav
+               C4: configs/Niyazi/Normal/9/-12dB.wav
+               C5: configs/Niyazi/Normal/9/vdb.wav
+               C6: configs/Niyazi/Normal/9/anchor.wav
+      -   
+        - type: mushra
+          id: sound10
+          name: MUSHRAM
+          content: this is a experimental test. 
+          showWaveform: true
+          enableLooping: false 
+          reference: configs/Niyazi/Normal/10/standard.wav
+          createAnchor35: false
+          createAnchor70: false
+          stimuli:
+               C1: configs/Niyazi/Normal/10/-3dB.wav
+               C2: configs/Niyazi/Normal/10/-6dB.wav
+               C3: configs/Niyazi/Normal/10/-9dB.wav
+               C4: configs/Niyazi/Normal/10/-12dB.wav
+               C5: configs/Niyazi/Normal/10/vdb.wav
+               C6: configs/Niyazi/Normal/10/anchor.wav
+             
+    - type: finish
+      name: Thank you
+      content: Thank you for attending
+      popupContent: Your results were sent. Goodbye and have a nice day
+      showResults: true
+      writeResults: true
+      questionnaire:
+          - type: text
+            label: eMail
+            name: email
+          - type: number
+            label: Age
+            name: age
+            min: 0
+            max: 100
+            default: 30
+          - type: likert
+            name: gender
+            label: Gender
+            response:
+             - value: female
+               label: Female
+             - value: male
+               label: Male
+             - value: other
+               label: Other

@@ -262,29 +262,3 @@ pages:
    showResults: true
    showErrors: true
    writeResults: true
-   questionnaire:
-       - type: text
-         label: eMail
-         name: email
-         optional: false
-       - type: number
-         label: Age
-         name: age
-         optional: true
-         min: 0
-         max: 100
-         default: 30
-       - type: likert
-         name: gender
-         label: Gender
-         response:
-          - value: female
-            label: Female
-          - value: male
-            label: Male
-          - value: other
-            label: Other
-       - type: long_text
-         label: Feedback
-         name: feedback
-         optional: true
