@@ -5,6 +5,7 @@ stopOnErrors: true
 showButtonPreviousPage: true
 remoteService: service/write.php
 
+
 pages:
     - type: generic
       id: first_page
@@ -28,168 +29,168 @@ pages:
           C1: configs/resources/audio/mono_c1.wav
           C2: configs/resources/audio/mono_c2.wav
           C3: configs/resources/audio/mono_c3.wav
-      - 
+    - 
           - random
           - type: mushra
             id: trial_random_1
-            name: sound1
-            content: Please give a grade to each signal. 
-            enableLooping: true 
+            name: MUSHRA TEST - ORIGINAL -
+            content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
+            enableLooping: true
             showWaveform: true
             reference: configs/Niyazi/Normal/1/standard.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
-                 C1: configs/Niyazi/Normal/1/-3dB.wav
-                 C2: configs/Niyazi/Normal/1/-6dB.wav
-                 C3: configs/Niyazi/Normal/1/-9dB.wav
-                 C4: configs/Niyazi/Normal/1/-12dB.wav
-                 C5: configs/Niyazi/Normal/1/vdb.wav
-                 C6: configs/Niyazi/Normal/1/anchor.wav
+                C1: configs/Niyazi/Normal/1/-3dB.wav
+                C2: configs/Niyazi/Normal/1/-6dB.wav
+                C3: configs/Niyazi/Normal/1/-9dB.wav
+                C4: configs/Niyazi/Normal/1/-12dB.wav
+                C5: configs/Niyazi/Normal/1/vdb.wav
+                C6: configs/Niyazi/Normal/1/anchor.wav
           - type: mushra
             id: trial_random_2
-            name: sound1
-            content: Please give a grade to each signal. 
-            enableLooping: true 
+            name: MUSHRA TEST - ORIGINAL -
+            content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
+            enableLooping: true
             showWaveform: true
             reference: configs/Niyazi/Normal/2/standard.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
-                 C1: configs/Niyazi/Normal/2/-3dB.wav
-                 C2: configs/Niyazi/Normal/2/-6dB.wav
-                 C3: configs/Niyazi/Normal/2/-9dB.wav
-                 C4: configs/Niyazi/Normal/2/-12dB.wav
-                 C5: configs/Niyazi/Normal/2/vdb.wav
-                 C6: configs/Niyazi/Normal/2/anchor.wav  
+                C1: configs/Niyazi/Normal/2/-3dB.wav
+                C2: configs/Niyazi/Normal/2/-6dB.wav
+                C3: configs/Niyazi/Normal/2/-9dB.wav
+                C4: configs/Niyazi/Normal/2/-12dB.wav
+                C5: configs/Niyazi/Normal/2/vdb.wav
+                C6: configs/Niyazi/Normal/2/anchor.wav
           - type: mushra
             id: trial_random_3
-            name: sound1
-            content: Please give a grade to each signal. 
-            enableLooping: true 
+            name: MUSHRA TEST - ORIGINAL -
+            content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
+            enableLooping: true
             showWaveform: true
-            reference: configs/Niyazi/Normal/3/standard.wav
+            reference: configs/Niyazi/Normal/1/standard.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
-                 C1: configs/Niyazi/Normal/3/-3dB.wav
-                 C2: configs/Niyazi/Normal/3/-6dB.wav
-                 C3: configs/Niyazi/Normal/3/-9dB.wav
-                 C4: configs/Niyazi/Normal/3/-12dB.wav
-                 C5: configs/Niyazi/Normal/3/vdb.wav
-                 C6: configs/Niyazi/Normal/3/anchor.wav  
+                C1: configs/Niyazi/Normal/3/-3dB.wav
+                C2: configs/Niyazi/Normal/3/-6dB.wav
+                C3: configs/Niyazi/Normal/3/-9dB.wav
+                C4: configs/Niyazi/Normal/3/-12dB.wav
+                C5: configs/Niyazi/Normal/3/vdb.wav
+                C6: configs/Niyazi/Normal/3/anchor.wav
           - type: mushra
             id: trial_random_4
-            name: sound1
-            content: Please give a grade to each signal. 
-            enableLooping: true 
+            name: MUSHRA TEST - ORIGINAL -
+            content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
+            enableLooping: true
             showWaveform: true
             reference: configs/Niyazi/Normal/4/standard.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
-                 C1: configs/Niyazi/Normal/4/-3dB.wav
-                 C2: configs/Niyazi/Normal/4/-6dB.wav
-                 C3: configs/Niyazi/Normal/4/-9dB.wav
-                 C4: configs/Niyazi/Normal/4/-12dB.wav
-                 C5: configs/Niyazi/Normal/4/vdb.wav
-                 C6: configs/Niyazi/Normal/4/anchor.wav                   
+                C1: configs/Niyazi/Normal/4/-3dB.wav
+                C2: configs/Niyazi/Normal/4/-6dB.wav
+                C3: configs/Niyazi/Normal/4/-9dB.wav
+                C4: configs/Niyazi/Normal/4/-12dB.wav
+                C5: configs/Niyazi/Normal/4/vdb.wav
+                C6: configs/Niyazi/Normal/4/anchor.wav
           - type: mushra
             id: trial_random_5
-            name: sound1
-            content: Please give a grade to each signal. 
-            enableLooping: true 
+            name: MUSHRA TEST - ORIGINAL -
+            content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
+            enableLooping: true
             showWaveform: true
             reference: configs/Niyazi/Normal/5/standard.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
-                 C1: configs/Niyazi/Normal/5/-3dB.wav
-                 C2: configs/Niyazi/Normal/5/-6dB.wav
-                 C3: configs/Niyazi/Normal/5/-9dB.wav
-                 C4: configs/Niyazi/Normal/5/-12dB.wav
-                 C5: configs/Niyazi/Normal/5/vdb.wav
-                 C6: configs/Niyazi/Normal/5/anchor.wav  
+                C1: configs/Niyazi/Normal/5/-3dB.wav
+                C2: configs/Niyazi/Normal/5/-6dB.wav
+                C3: configs/Niyazi/Normal/5/-9dB.wav
+                C4: configs/Niyazi/Normal/5/-12dB.wav
+                C5: configs/Niyazi/Normal/5/vdb.wav
+                C6: configs/Niyazi/Normal/5/anchor.wav
           - type: mushra
             id: trial_random_6
-            name: sound1
-            content: Please give a grade to each signal. 
-            enableLooping: true 
+            name: MUSHRA TEST - ORIGINAL -
+            content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
+            enableLooping: true
             showWaveform: true
-            reference: configs/Niyazi/Normal/6/standard.wav
+            reference: configs/Niyazi/Normal/1/standard.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
-                 C1: configs/Niyazi/Normal/6/-3dB.wav
-                 C2: configs/Niyazi/Normal/6/-6dB.wav
-                 C3: configs/Niyazi/Normal/6/-9dB.wav
-                 C4: configs/Niyazi/Normal/6/-12dB.wav
-                 C5: configs/Niyazi/Normal/6/vdb.wav
-                 C6: configs/Niyazi/Normal/6/anchor.wav  
+                C1: configs/Niyazi/Normal/6/-3dB.wav
+                C2: configs/Niyazi/Normal/6/-6dB.wav
+                C3: configs/Niyazi/Normal/6/-9dB.wav
+                C4: configs/Niyazi/Normal/6/-12dB.wav
+                C5: configs/Niyazi/Normal/6/vdb.wav
+                C6: configs/Niyazi/Normal/6/anchor.wav
           - type: mushra
             id: trial_random_7
-            name: sound1
-            content: Please give a grade to each signal. 
-            enableLooping: true 
+            name: MUSHRA TEST - ORIGINAL -
+            content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
+            enableLooping: true
             showWaveform: true
-            reference: configs/Niyazi/Normal/7/standard.wav
+            reference: configs/Niyazi/Normal/1/standard.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
-                 C1: configs/Niyazi/Normal/7/-3dB.wav
-                 C2: configs/Niyazi/Normal/7/-6dB.wav
-                 C3: configs/Niyazi/Normal/7/-9dB.wav
-                 C4: configs/Niyazi/Normal/7/-12dB.wav
-                 C5: configs/Niyazi/Normal/7/vdb.wav
-                 C6: configs/Niyazi/Normal/7/anchor.wav  
+                C1: configs/Niyazi/Normal/7/-3dB.wav
+                C2: configs/Niyazi/Normal/7/-6dB.wav
+                C3: configs/Niyazi/Normal/7/-9dB.wav
+                C4: configs/Niyazi/Normal/7/-12dB.wav
+                C5: configs/Niyazi/Normal/7/vdb.wav
+                C6: configs/Niyazi/Normal/7/anchor.wav
           - type: mushra
             id: trial_random_8
-            name: sound1
-            content: Please give a grade to each signal. 
-            enableLooping: true 
+            name: MUSHRA TEST - ORIGINAL -
+            content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
+            enableLooping: true
             showWaveform: true
-            reference: configs/Niyazi/Normal/8/standard.wav
+            reference: configs/Niyazi/Normal/1/standard.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
-                 C1: configs/Niyazi/Normal/8/-3dB.wav
-                 C2: configs/Niyazi/Normal/8/-6dB.wav
-                 C3: configs/Niyazi/Normal/8/-9dB.wav
-                 C4: configs/Niyazi/Normal/8/-12dB.wav
-                 C5: configs/Niyazi/Normal/8/vdb.wav
-                 C6: configs/Niyazi/Normal/8/anchor.wav  
+                C1: configs/Niyazi/Normal/8/-3dB.wav
+                C2: configs/Niyazi/Normal/8/-6dB.wav
+                C3: configs/Niyazi/Normal/8/-9dB.wav
+                C4: configs/Niyazi/Normal/8/-12dB.wav
+                C5: configs/Niyazi/Normal/8/vdb.wav
+                C6: configs/Niyazi/Normal/8/anchor.wav
           - type: mushra
             id: trial_random_9
-            name: sound1
-            content: Please give a grade to each signal. 
-            enableLooping: true 
+            name: MUSHRA TEST - ORIGINAL -
+            content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
+            enableLooping: true
             showWaveform: true
-            reference: configs/Niyazi/Normal/9/standard.wav
+            reference: configs/Niyazi/Normal/1/standard.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
-                 C1: configs/Niyazi/Normal/9/-3dB.wav
-                 C2: configs/Niyazi/Normal/9/-6dB.wav
-                 C3: configs/Niyazi/Normal/9/-9dB.wav
-                 C4: configs/Niyazi/Normal/9/-12dB.wav
-                 C5: configs/Niyazi/Normal/9/vdb.wav
-                 C6: configs/Niyazi/Normal/9/anchor.wav  
+                C1: configs/Niyazi/Normal/9/-3dB.wav
+                C2: configs/Niyazi/Normal/9/-6dB.wav
+                C3: configs/Niyazi/Normal/9/-9dB.wav
+                C4: configs/Niyazi/Normal/9/-12dB.wav
+                C5: configs/Niyazi/Normal/9/vdb.wav
+                C6: configs/Niyazi/Normal/9/anchor.wav
           - type: mushra
             id: trial_random_10
-            name: sound1
-            content: Please give a grade to each signal. 
-            enableLooping: true 
+            name: MUSHRA TEST - ORIGINAL -
+            content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
+            enableLooping: true
             showWaveform: true
-            reference: configs/Niyazi/Normal/10/standard.wav
+            reference: configs/Niyazi/Normal/1/standard.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
-                 C1: configs/Niyazi/Normal/10/-3dB.wav
-                 C2: configs/Niyazi/Normal/10/-6dB.wav
-                 C3: configs/Niyazi/Normal/10/-9dB.wav
-                 C4: configs/Niyazi/Normal/10/-12dB.wav
-                 C5: configs/Niyazi/Normal/10/vdb.wav
-                 C6: configs/Niyazi/Normal/10/anchor.wav       
+                C1: configs/Niyazi/Normal/10/-3dB.wav
+                C2: configs/Niyazi/Normal/10/-6dB.wav
+                C3: configs/Niyazi/Normal/10/-9dB.wav
+                C4: configs/Niyazi/Normal/10/-12dB.wav
+                C5: configs/Niyazi/Normal/10/vdb.wav
+                C6: configs/Niyazi/Normal/10/anchor.wav
     - type: finish
       name: Thank you
       content: Thank you for attending!
