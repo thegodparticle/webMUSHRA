@@ -69,7 +69,7 @@ pages:
             content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
             enableLooping: true
             showWaveform: true
-            reference: configs/Niyazi/Normal/1/standard.wav
+            reference: configs/Niyazi/Normal/3/standard.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
@@ -117,7 +117,7 @@ pages:
             content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
             enableLooping: true
             showWaveform: true
-            reference: configs/Niyazi/Normal/1/standard.wav
+            reference: configs/Niyazi/Normal/6/standard.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
@@ -133,7 +133,7 @@ pages:
             content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
             enableLooping: true
             showWaveform: true
-            reference: configs/Niyazi/Normal/1/standard.wav
+            reference: configs/Niyazi/Normal/7/standard.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
@@ -149,7 +149,7 @@ pages:
             content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
             enableLooping: true
             showWaveform: true
-            reference: configs/Niyazi/Normal/1/standard.wav
+            reference: configs/Niyazi/Normal/8/standard.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
@@ -165,7 +165,7 @@ pages:
             content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
             enableLooping: true
             showWaveform: true
-            reference: configs/Niyazi/Normal/1/standard.wav
+            reference: configs/Niyazi/Normal/9/standard.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
@@ -181,7 +181,7 @@ pages:
             content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
             enableLooping: true
             showWaveform: true
-            reference: configs/Niyazi/Normal/1/standard.wav
+            reference: configs/Niyazi/Normal/10/standard.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
