@@ -12,17 +12,15 @@ pages:
     - type: generic
       id: mushra_instructions
       name: PLEASE READ THE INSTRUCTION CAREFULLY!
-      content: The purpose of the test is to invite you to assign your grades using the quality scale. Your grades should reflect your subjective judgment of the quality level for each of the sound excerpts presented to you. Each trial will contain 7 signals to be graded. Each of the items is approximately 5 s long. You should listen to the reference and all the test conditions by clicking on the respective buttons. You may listen to the signals in any order, any number of times.In evaluating the sound excerpts, please note that you should not necessarily give a grade in the “bad” category to the sound excerpt with the lowest quality in the test. However one or more excerpts must be given a grade of 100 because the unprocessed reference signal is included as one of the excerpts to be graded.
-
+      content: <p>The purpose of the test is to invite you to assign your grades using the quality scale. Your grades should reflect your subjective judgment of the quality level for each of the sound excerpts presented to you. Each trial will contain 7 signals to be graded. Each of the items is approximately 5 s long. You should listen to the reference and all the test conditions by clicking on the respective buttons. You may listen to the signals in any order, any number of times.In evaluating the sound excerpts, please note that you should not necessarily give a grade in the “bad” category to the sound excerpt with the lowest quality in the test. However one or more excerpts must be given a grade of 100 because the unprocessed reference signal is included as one of the excerpts to be graded.</p>
     - type: consent
       id: consent_page
       name: Consent
       mustConsent: true
       content: <p>You are participating in a listening test. For this, we want to store the answers you give to the following questions.<br>Do you give consent for this?</p>
-
     - type: mushra
       id: trial1
-      name: MUSHRA
+      name: mushra
       content: This training shows how to use our user interface. Please perform the underlined instructions to proceed with the training session. Reminder: In a MUSHRA listening test you are asked to rate the Basic Audio Quality (BAQ) of each condition.<br/>Basic Audio Quality is a single and global attribute that is used to judge any and all detected differences between the reference and the condition.
       showWaveform: true
       enableLooping: true 
