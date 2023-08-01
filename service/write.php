@@ -30,7 +30,7 @@ if(version_compare(PHP_VERSION, '8.0.0', '<') and get_magic_quotes_gpc()){
 $session = json_decode($sessionParam);
 
 
-$filepathPrefix = "/var/www/html/webMUSHRA/results/".sanitize($string = $session->testId, $is_filename =FALSE)."/";
+$filepathPrefix = "../results/".sanitize($string = $session->testId, $is_filename =FALSE)."/";
 $filepathPostfix = ".csv";
 
 if (!is_dir($filepathPrefix)) {
