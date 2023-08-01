@@ -2,7 +2,7 @@
 
 
 testname: MUSHRA_Original 
-testId: SHS598_Original
+testId: result_original
 bufferSize: 2048
 stopOnErrors: true
 showButtonPreviousPage: true
