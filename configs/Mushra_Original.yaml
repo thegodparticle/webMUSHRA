@@ -1,6 +1,5 @@
 # MUSHRA ORIGINAL
 
-
 testname: MUSHRA_Original 
 testId: result_original
 bufferSize: 2048
@@ -8,9 +7,42 @@ stopOnErrors: true
 showButtonPreviousPage: true
 remoteService: service/write.php
 
-
 pages:
+    - type: consent
+      id: consent_page
+      name: Consent
+      mustConsent: true
+      content: <p>You are participating in a listening test. For this, we want to store the answers you give to the following questions.<br>Do you give consent for this?</p>
 
+    - type: likert_multi_stimulus
+      id: training_2
+      name: Training No.2
+      content: test description
+      mustRate: true
+      stimuli:
+          C1: configs/resources/audio/mono_c1.wav
+          C2: configs/resources/audio/mono_c2.wav
+          C3: configs/resources/audio/mono_c3.wav
+      response:
+        - value: listened
+          label: I listened to this item
+    
+    - type: mushra
+      id: training_3
+      name: Training No.3
+      content: This MUSHRA page does not randomize the conditions. Furthermore, the conditions names are not hidden. 
+      showWaveform: true
+      enableLooping: true 
+      reference: configs/resources/audio/mono_ref.wav
+      createAnchor35: true
+      createAnchor70: true
+      randomize: false
+      showConditionNames: true
+      stimuli:
+          C1: configs/resources/audio/mono_c1.wav
+          C2: configs/resources/audio/mono_c2.wav
+          C3: configs/resources/audio/mono_c3.wav  
+          
     - type: generic
       id: mushra_instructions
       name: PLEASE READ THE INSTRUCTION CAREFULLY!
