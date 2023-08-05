@@ -47,6 +47,34 @@ pages:
                 C4: configs/Niyazi/Normal/1/-12dB.wav
                 C5: configs/Niyazi/Normal/1/vdb.wav
                 C6: configs/Niyazi/Normal/1/anchor.wav
+          - type: likert_multi_stimulus
+            id: lms2
+            name: likert
+            content: test description
+            stimuli:
+                C1: configs/Niyazi/Normal/1/standard.wav
+            response:
+              - value: not at all
+                label: Not at all
+                img: configs/resources/images/star_off.png
+                imgSelected: configs/resources/images/star_on.png
+                imgHigherResponseSelected: configs/resources/images/star_on.png
+              - value: not a lot
+                label: Not a lot
+                img: configs/resources/images/star_off.png
+                imgSelected: configs/resources/images/star_on.png
+                imgHigherResponseSelected: configs/resources/images/star_on.png
+              - value: a bit
+                label: A bit
+                img: configs/resources/images/star_off.png
+                imgSelected: configs/resources/images/star_on.png
+                imgHigherResponseSelected: configs/resources/images/star_on.png
+              - value: much
+                label: Much
+                img: configs/resources/images/star_off.png
+                imgSelected: configs/resources/images/star_on.png
+                imgHigherResponseSelected: configs/resources/images/star_on.png          
+
           - type: mushra
             id: trial_random_2
             name: MUSHRA TEST - ORIGINAL -
