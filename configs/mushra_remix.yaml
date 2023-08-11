@@ -16,6 +16,12 @@ pages:
       name: Consent
       mustConsent: true
       content: <p>You are participating in a listening test. For this, we want to store the answers you give to the following questions.<br>Do you give consent for this?</p>
+    - type: volume
+      id: volume
+      name: Volume Calibration
+      content: Welcome to the Volume Calibration page. This section of the experiment allows you to calibrate the volume settings to ensure a consistent and accurate listening experience. Make sure you are in a quiet environment to avoid interference. Adjust your computer volume to a comfortable level. Adjust the physical volume settings on your speakers or headphones until the presented sound matches your perceived most comfortable level. 
+      stimulus: configs/resources/audio/mono_c1.wav
+      defaultVolume: 0.7
     - type: mushra
       id: trial1
       name: MUSHRA

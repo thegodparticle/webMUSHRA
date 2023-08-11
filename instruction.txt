@@ -1,0 +1,41 @@
+R Studio (Make changes on Rstudio, Push the changes into GitHub)
+
+-Launch R Studio and select the "webMUSHRA" project.
+-After making changes, open a terminal within R Studio.
+-Run the following commands:
+git branch
+git add .
+git commit -m "Update: brief description of changes"
+git push origin test
+
+Putty (Pull changes)
+
+-Open Putty.
+-In the "Session" tab, load your Azure instance settings and click "Open."
+-Log in as "azureuser."
+
+-Navigate to the project directory:
+cd /var/www/html/webMUSHRA
+
+-Change the ownership of files to your user (optional if required):
+sudo chown -R azureuser:azureuser /var/www/html/webMUSHRA
+
+-Check the status of your repository:
+git status
+
+-if there are any local changes, stash them:
+git stash
+
+-Pull the latest changes from the test branch on GitHub:
+git pull origin test
+
+-If you stashed changes earlier, apply them back:
+git stash apply
+
+-Change the ownership back to the web server user:
+sudo chown -R www-data:www-data /var/www/html/webMUSHRA
+
+
+Your changes from R Studio should now be reflected in your Azure environment.
+
+
