@@ -19,7 +19,7 @@ pages:
     - type: volume
       id: volume
       name: Volume Calibration
-      content: Welcome to the Volume Calibration page. This section of the experiment allows you to calibrate the volume settings to ensure a consistent and accurate listening experience. Make sure you are in a quiet environment to avoid interference. Adjust your computer volume to a comfortable level. Adjust the physical volume settings on your speakers or headphones until the presented sound matches your perceived most comfortable level. 
+      content: Welcome to the Volume Calibration page. 
       stimulus: configs/resources/audio/mono_c1.wav
       defaultVolume: 0.7
     - type: mushra
