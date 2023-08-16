@@ -10,7 +10,22 @@ pages:
     - type: generic
       id: first_page
       name: Welcome
-      content: Welcome to webMUSHRA!
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <title>Music Grading Test Instructions</title>
+        </head>
+        <body>
+
+        <h2><strong>Test Instructions for School-Aged Children</strong></h2>
+
+        <p>Hello and welcome to this music grading test! We're excited to have you here. In this test, we're going to listen to some remixed versions of a song and assign grades to them using a scale. Don't worry, it's going to be a <strong>fun and enjoyable</strong> experience!</p>
+
+        <!-- Rest of the test instructions... -->
+
+        </body>
+        </html>
     - type: consent
       id: consent_page
       name: Consent
