@@ -22,7 +22,7 @@ pages:
 
         <p>Hello and welcome to this music grading test! We're excited to have you here. In this test, we're going to listen to some remixed versions of a song and assign grades to them using a scale. Don't worry, it's going to be a <strong>fun and enjoyable</strong> experience!</p>
         
-        <img src="../configs/resources/images/DJman.png" width="512" height="512">
+        <img src="../configs/resources/images/DJman.png" width="200" height="300">
         
         <h3><strong>Purpose of the Test:</strong></h3>
         <p>The purpose of this test is to help us understand your preferences for different remixed versions of a song. Your grades will help us figure out which versions you find the <strong>most enjoyable</strong>.</p>
