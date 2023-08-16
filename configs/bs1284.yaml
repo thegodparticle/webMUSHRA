@@ -1,0 +1,224 @@
+testname: bs1884
+testId: bs1884
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+remoteService: service/write.php
+
+
+pages:
+    - type: generic
+      id: first_page
+      name: Welcome
+      content: Welcome to webbs1284!
+    - type: consent
+      id: consent_page
+      name: Consent
+      mustConsent: true
+      content: <p>You are participating in a listening test. For this, we want to store the answers you give to the following questions.<br>Do you give consent for this?</p>
+    - type: volume
+      id: volume
+      name: Volume Calibration
+      content: Welcome to the Volume Calibration page. 
+      stimulus: configs/resources/audio/mono_c1.wav
+      defaultVolume: 0.7
+    - type: bs1284
+      id: trial1
+      name: bs1284
+      content: This training shows how to use our user interface. Please perform the underlined instructions to proceed with the training session. Reminder: In a bs1284 listening test you are asked to rate the Basic Audio Quality (BAQ) of each condition.<br/>Basic Audio Quality is a single and global attribute that is used to judge any and all detected differences between the # reference and the condition.
+      showWaveform: true
+      enableLooping: true 
+#      # reference: configs/resources/audio/mono_ref.wav
+#      createAnchor35: true
+#      createAnchor70: true
+      stimuli:
+          C1: configs/resources/audio/mono_c1.wav
+          C2: configs/resources/audio/mono_c2.wav
+          C3: configs/resources/audio/mono_c3.wav
+    - 
+          - random
+          - type: bs1284
+            id: trial_random_1
+            name: bs1284 TEST - ORIGINAL -
+            content: Due to randomization, this page will be either the second bs1284 page or the third bs1284 page.
+            enableLooping: true
+            showWaveform: true
+#            # reference: configs/Niyazi/Normal/1/standard.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/Niyazi/Normal/1/-3dB.wav
+                C2: configs/Niyazi/Normal/1/-6dB.wav
+                C3: configs/Niyazi/Normal/1/-9dB.wav
+                C4: configs/Niyazi/Normal/1/-12dB.wav
+                C5: configs/Niyazi/Normal/1/vdb.wav
+                C6: configs/Niyazi/Normal/1/anchor.wav
+          - type: bs1284
+            id: trial_random_2
+            name: bs1284 TEST - ORIGINAL -
+            content: Due to randomization, this page will be either the second bs1284 page or the third bs1284 page.
+            enableLooping: true
+            showWaveform: true
+            # # reference: configs/Niyazi/Normal/2/standard.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/Niyazi/Normal/2/-3dB.wav
+                C2: configs/Niyazi/Normal/2/-6dB.wav
+                C3: configs/Niyazi/Normal/2/-9dB.wav
+                C4: configs/Niyazi/Normal/2/-12dB.wav
+                C5: configs/Niyazi/Normal/2/vdb.wav
+                C6: configs/Niyazi/Normal/2/anchor.wav
+          - type: bs1284
+            id: trial_random_3
+            name: bs1284 TEST - ORIGINAL -
+            content: Due to randomization, this page will be either the second bs1284 page or the third bs1284 page.
+            enableLooping: true
+            showWaveform: true
+            # reference: configs/Niyazi/Normal/3/standard.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/Niyazi/Normal/3/-3dB.wav
+                C2: configs/Niyazi/Normal/3/-6dB.wav
+                C3: configs/Niyazi/Normal/3/-9dB.wav
+                C4: configs/Niyazi/Normal/3/-12dB.wav
+                C5: configs/Niyazi/Normal/3/vdb.wav
+                C6: configs/Niyazi/Normal/3/anchor.wav
+          - type: bs1284
+            id: trial_random_4
+            name: bs1284 TEST - ORIGINAL -
+            content: Due to randomization, this page will be either the second bs1284 page or the third bs1284 page.
+            enableLooping: true
+            showWaveform: true
+            # reference: configs/Niyazi/Normal/4/standard.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/Niyazi/Normal/4/-3dB.wav
+                C2: configs/Niyazi/Normal/4/-6dB.wav
+                C3: configs/Niyazi/Normal/4/-9dB.wav
+                C4: configs/Niyazi/Normal/4/-12dB.wav
+                C5: configs/Niyazi/Normal/4/vdb.wav
+                C6: configs/Niyazi/Normal/4/anchor.wav
+          - type: bs1284
+            id: trial_random_5
+            name: bs1284 TEST - ORIGINAL -
+            content: Due to randomization, this page will be either the second bs1284 page or the third bs1284 page.
+            enableLooping: true
+            showWaveform: true
+            # reference: configs/Niyazi/Normal/5/standard.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/Niyazi/Normal/5/-3dB.wav
+                C2: configs/Niyazi/Normal/5/-6dB.wav
+                C3: configs/Niyazi/Normal/5/-9dB.wav
+                C4: configs/Niyazi/Normal/5/-12dB.wav
+                C5: configs/Niyazi/Normal/5/vdb.wav
+                C6: configs/Niyazi/Normal/5/anchor.wav
+          - type: bs1284
+            id: trial_random_6
+            name: bs1284 TEST - ORIGINAL -
+            content: Due to randomization, this page will be either the second bs1284 page or the third bs1284 page.
+            enableLooping: true
+            showWaveform: true
+            # reference: configs/Niyazi/Normal/6/standard.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/Niyazi/Normal/6/-3dB.wav
+                C2: configs/Niyazi/Normal/6/-6dB.wav
+                C3: configs/Niyazi/Normal/6/-9dB.wav
+                C4: configs/Niyazi/Normal/6/-12dB.wav
+                C5: configs/Niyazi/Normal/6/vdb.wav
+                C6: configs/Niyazi/Normal/6/anchor.wav
+          - type: bs1284
+            id: trial_random_7
+            name: bs1284 TEST - ORIGINAL -
+            content: Due to randomization, this page will be either the second bs1284 page or the third bs1284 page.
+            enableLooping: true
+            showWaveform: true
+            # reference: configs/Niyazi/Normal/7/standard.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/Niyazi/Normal/7/-3dB.wav
+                C2: configs/Niyazi/Normal/7/-6dB.wav
+                C3: configs/Niyazi/Normal/7/-9dB.wav
+                C4: configs/Niyazi/Normal/7/-12dB.wav
+                C5: configs/Niyazi/Normal/7/vdb.wav
+                C6: configs/Niyazi/Normal/7/anchor.wav
+          - type: bs1284
+            id: trial_random_8
+            name: bs1284 TEST - ORIGINAL -
+            content: Due to randomization, this page will be either the second bs1284 page or the third bs1284 page.
+            enableLooping: true
+            showWaveform: true
+            # reference: configs/Niyazi/Normal/8/standard.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/Niyazi/Normal/8/-3dB.wav
+                C2: configs/Niyazi/Normal/8/-6dB.wav
+                C3: configs/Niyazi/Normal/8/-9dB.wav
+                C4: configs/Niyazi/Normal/8/-12dB.wav
+                C5: configs/Niyazi/Normal/8/vdb.wav
+                C6: configs/Niyazi/Normal/8/anchor.wav
+          - type: bs1284
+            id: trial_random_9
+            name: bs1284 TEST - ORIGINAL -
+            content: Due to randomization, this page will be either the second bs1284 page or the third bs1284 page.
+            enableLooping: true
+            showWaveform: true
+            # reference: configs/Niyazi/Normal/9/standard.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/Niyazi/Normal/9/-3dB.wav
+                C2: configs/Niyazi/Normal/9/-6dB.wav
+                C3: configs/Niyazi/Normal/9/-9dB.wav
+                C4: configs/Niyazi/Normal/9/-12dB.wav
+                C5: configs/Niyazi/Normal/9/vdb.wav
+                C6: configs/Niyazi/Normal/9/anchor.wav
+          - type: bs1284
+            id: trial_random_10
+            name: bs1284 TEST - ORIGINAL -
+            content: Due to randomization, this page will be either the second bs1284 page or the third bs1284 page.
+            enableLooping: true
+            showWaveform: true
+            # reference: configs/Niyazi/Normal/10/standard.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/Niyazi/Normal/10/-3dB.wav
+                C2: configs/Niyazi/Normal/10/-6dB.wav
+                C3: configs/Niyazi/Normal/10/-9dB.wav
+                C4: configs/Niyazi/Normal/10/-12dB.wav
+                C5: configs/Niyazi/Normal/10/vdb.wav
+                C6: configs/Niyazi/Normal/10/anchor.wav
+    - type: finish
+      name: Thank you
+      content: Thank you for attending!
+      showResults: true
+      writeResults: true
+      questionnaire:
+          - type: text
+            label: eMail
+            name: email
+          - type: number
+            label: Age
+            name: age
+            min: 0
+            max: 100
+            default: 30
+          - type: likert
+            name: gender
+            label: Gender
+            response:
+             - value: female
+               label: Female
+             - value: male
+               label: Male
+             - value: other
+               label: Other
