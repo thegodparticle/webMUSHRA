@@ -18,11 +18,42 @@ pages:
         </head>
         <body>
 
-        <h2><strong>Test Instructions for School-Aged Children</strong></h2>
+        <h2><strong>Test Instructions</strong></h2>
 
         <p>Hello and welcome to this music grading test! We're excited to have you here. In this test, we're going to listen to some remixed versions of a song and assign grades to them using a scale. Don't worry, it's going to be a <strong>fun and enjoyable</strong> experience!</p>
-
-        <!-- Rest of the test instructions... -->
+        
+        <img src="../configs/resources/images/DJman.png" alt="">
+        
+        <h3><strong>Purpose of the Test:</strong></h3>
+        <p>The purpose of this test is to help us understand your preferences for different remixed versions of a song. Your grades will help us figure out which versions you find the <strong>most enjoyable</strong>.</p>
+        
+        <h3><strong>How the Test Works:</strong></h3>
+        <ul>
+          <li>In each trial, you will listen to <strong>7 different remixed versions</strong> of a song.</li>
+          <li>Your job is to listen to each version and decide which one you find the <strong>most enjoyable</strong>. This version will be your <strong>reference</strong>, and you'll assign it a grade of <strong>100</strong>.</li>
+          <li>After you've selected the most enjoyable version, you will compare the other versions to this reference. Assign scores from <strong>0 to 100</strong> based on how much you like each version compared to your reference.</li>
+        </ul>
+        
+        <h3><strong>Listening and Grading:</strong></h3>
+        <ul>
+          <li>You are free to listen to the versions <strong>in any order you like</strong>.</li>
+          <li>You can listen to each version as <strong>many times</strong> as you want before assigning a grade.</li>
+          <li>Remember, you're the expert here! Your grades will help us understand your <strong>musical preferences</strong>.</li>
+        </ul>
+        
+        <h3><strong>Grading Scale:</strong></h3>
+        <ul>
+          <li><strong>100</strong>: The version you find most enjoyable. You'll assign this score to your reference version.</li>
+          <li><strong>0-100</strong>: For other versions, assign a score based on how much you like them compared to your reference.</li>
+        </ul>
+        
+        <h3><strong>Important Notes:</strong></h3>
+        <ul>
+          <li>There are <strong>no right or wrong answers</strong>. We're interested in your <strong>personal preferences</strong>.</li>
+          <li>Take your time, enjoy the music, and have <strong>fun</strong> with this test!</li>
+        </ul>
+        
+        <p>Thank you for participating, and let's get started! If you have any questions, feel free to ask the test conductor.</p>
 
         </body>
         </html>
