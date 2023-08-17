@@ -116,13 +116,13 @@ pages:
           img: configs/resources/images/star_off.png
           imgSelected: configs/resources/images/star_on.png
           imgHigherResponseSelected: configs/resources/images/star_on.png
-        - value: Not Very Familiar
-          label: Not Very Familiar
+        - value: Quite Familiar
+          label: Quite Familiar
           img: configs/resources/images/star_off.png
           imgSelected: configs/resources/images/star_on.png
           imgHigherResponseSelected: configs/resources/images/star_on.png
-        - value: Not Familiar at All
-          label: Not Familiar at All
+        - value: Very Familiar
+          label: Very Familiar
           img: configs/resources/images/star_off.png
           imgSelected: configs/resources/images/star_on.png
           imgHigherResponseSelected: configs/resources/images/star_on.png          
