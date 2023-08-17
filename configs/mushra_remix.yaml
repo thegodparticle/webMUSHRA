@@ -65,60 +65,64 @@ pages:
     - type: volume
       id: volume
       name: Volume Calibration
-      content: Welcome to the Volume Calibration page. 
+      content: |
+          <p>Welcome to the Volume Calibration page.</p>
+          <p>In this part of the test, we want to make sure that the volume of the sounds is just right for you. You'll be listening to a short sound clip, and we'd like you to adjust the volume to the most comfortable level for your ears.</p>
+          <p>When you're ready, click the "Play" button to listen to the sound. Then, use the slider to increase or decrease the volume until it's comfortable for you. Don't worry, there's no right or wrong answer!</p>
+          <p>Once you've set the volume to your liking, you can move on to the next part of the test. Have fun!</p>
       stimulus: configs/resources/audio/mono_c1.wav
       defaultVolume: 0.7
     - type: likert_multi_stimulus
       id: lms4
       name: likert
+      mustRate: true
+      randomize: true
       content: |
         <p><strong>Familiarity Rating for Songs</strong></p>
-        <p><strong>Hello Everyone!</strong> We have a fun activity for you where you can let us know how well you know different songs. This activity is for kids and grown-ups too!</p>
+        <p><strong>Hello!</strong> We have a fun activity for you where you can let us know how well you know different songs.</p>
         <p><strong>Here's what you need to do:</strong></p>
         <ol>
           <li><strong>Step 1:</strong> You'll see a list of songs. We want to know how familiar you are with each song. Familiar means how well you know or recognize the song.</li>
-          <li><strong>Step 2:</strong> Look at the scale below each song. The scale has smiley faces that show how well you know the song. More smiley faces mean you know the song really well, and fewer smiley faces mean you're not very familiar with the song.</li>
-          <li><strong>Step 3:</strong> For each song, choose the number of smiley faces that best shows how well you know the song. You can use the scale like this:</li>
+          <li><strong>Step 2:</strong> Look at the scale below each song. The scale has levels that show how well you know the song. Choose the level that best describes your familiarity with the song:</li>
         </ol>
         <blockquote>
           <ul>
-            <li>😃 I know this song very well!</li>
-            <li>🙂 I know this song quite well.</li>
-            <li>😐 I know this song a little bit.</li>
-            <li>😕 I don't know this song well.</li>
-            <li>🙁 I don't know this song at all.</li>
+            <li>Very Familiar</li>
+            <li>Quite Familiar</li>
+            <li>Somewhat Familiar</li>
+            <li>Not Very Familiar</li>
+            <li>Not Familiar at All</li>
           </ul>
         </blockquote>
         <p><strong>Remember:</strong> It's okay to not know some songs, and it's great if you know others really well! Just have fun and be honest with your choices.</p>
-        <p>Enjoy rating the songs and telling us how well you know them! Your opinion is important, so thank you for sharing it with us! 🎵🎶</p>
-      
+        <p>Enjoy rating the songs and telling us how well you know them! Your opinion is important, so thank you for sharing it with us! 🎵🎶</p>      
       stimuli:
           C1: configs/resources/audio/mono_c1.wav
           C2: configs/resources/audio/mono_c2.wav
           C3: configs/resources/audio/mono_c3.wav
       response:
-        - value: 🙁 I don't know this song at all.
-          label: I don't know this song at all.
+        - value: Not Familiar at All
+          label: Not Familiar at All
           img: configs/resources/images/star_off.png
           imgSelected: configs/resources/images/star_on.png
           imgHigherResponseSelected: configs/resources/images/star_on.png
-        - value: 😕 I've heard this song before, but I'm not very familiar with it.
-          label: I've heard this song before, but I'm not very familiar with it.
+        - value: Not Very Familiar
+          label: Not Very Familiar
           img: configs/resources/images/star_off.png
           imgSelected: configs/resources/images/star_on.png
           imgHigherResponseSelected: configs/resources/images/star_on.png
-        - value: 😐 I'm somewhat familiar with this song.
-          label: I'm somewhat familiar with this song.
+        - value: Somewhat Familiar
+          label: Somewhat Familiar
           img: configs/resources/images/star_off.png
           imgSelected: configs/resources/images/star_on.png
           imgHigherResponseSelected: configs/resources/images/star_on.png
-        - value: 🙂 I know this song quite well.
-          label: I know this song quite well.
+        - value: Not Very Familiar
+          label: Not Very Familiar
           img: configs/resources/images/star_off.png
           imgSelected: configs/resources/images/star_on.png
           imgHigherResponseSelected: configs/resources/images/star_on.png
-        - value: 😃 I know this song quite well.
-          label: I know this song quite well.
+        - value: Not Familiar at All
+          label: Not Familiar at All
           img: configs/resources/images/star_off.png
           imgSelected: configs/resources/images/star_on.png
           imgHigherResponseSelected: configs/resources/images/star_on.png          
