@@ -68,6 +68,63 @@ pages:
       content: Welcome to the Volume Calibration page. 
       stimulus: configs/resources/audio/mono_c1.wav
       defaultVolume: 0.7
+    - type: likert_multi_stimulus
+      id: lms2
+      name: likert
+      content: |
+      
+      <p><strong>Test Description: Familiarity Rating for Songs</strong></p>
+      <p><strong>Hello Everyone!</strong> We have a fun activity for you where you can let us know how well you know different songs. This activity is for kids and grown-ups too!</p>
+      <p><strong>Here's what you need to do:</strong></p>
+      <ol>
+        <li><strong>Step 1:</strong> You'll see a list of songs. We want to know how familiar you are with each song. Familiar means how well you know or recognize the song.</li>
+        <li><strong>Step 2:</strong> Look at the scale below each song. The scale has smiley faces that show how well you know the song. More smiley faces mean you know the song really well, and fewer smiley faces mean you're not very familiar with the song.</li>
+        <li><strong>Step 3:</strong> For each song, choose the number of smiley faces that best shows how well you know the song. You can use the scale like this:</li>
+      </ol>
+       <blockquote>
+        <ul>
+          <li>😃 I know this song very well!</li>
+          <li>🙂 I know this song quite well.</li>
+          <li>😐 I know this song a little bit.</li>
+          <li>😕 I don't know this song well.</li>
+          <li>🙁 I don't know this song at all.</li>
+        </ul>
+      </blockquote>
+      <p><strong>Remember:</strong> It's okay to not know some songs, and it's great if you know others really well! Just have fun and be honest with your choices.</p>
+      
+      <p>Enjoy rating the songs and telling us how well you know them! Your opinion is important, so thank you for sharing it with us! 🎵🎶</p>
+      
+      stimuli:
+          C1: configs/resources/audio/mono_c1.wav
+          C2: configs/resources/audio/mono_c2.wav
+          C3: configs/resources/audio/mono_c3.wav
+      response:
+        - value: 🙁 I don't know this song at all.
+          label: I don't know this song at all.
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+        - value: 😕 I've heard this song before, but I'm not very familiar with it.
+          label: I've heard this song before, but I'm not very familiar with it.
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+        - value: 😐 I'm somewhat familiar with this song.
+          label: I'm somewhat familiar with this song.
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+        - value: 🙂 I know this song quite well.
+          label: I know this song quite well.
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+        - value: 😃 I know this song quite well.
+          label: I know this song quite well.
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png          
+          
     - type: mushra
       id: trial1
       name: MUSHRA
