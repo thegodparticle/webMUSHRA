@@ -196,7 +196,7 @@ pages:
               <p>Juice WRLD - Lucid Dreams(Explicit)</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/silent_10sec.wav
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
@@ -214,7 +214,7 @@ pages:
               <p>The Neighbourhood - Sweater Weather</p>             
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/silent_10sec.wav
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
@@ -232,7 +232,7 @@ pages:
               <p>Avicii - Wake Me Up (Radio Edit)</p>                    
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/silent_10sec.wav
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
@@ -286,7 +286,7 @@ pages:
               <p>🎵 <strong>The Weeknd - Blinding Lights</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/silent_10sec.wav
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
@@ -302,7 +302,7 @@ pages:
               <p>🎵 <strong>Ed Sheeran - Shape of You</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/silent_10sec.wav
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
@@ -318,7 +318,7 @@ pages:
               <p>🎵 <strong>Tones and I - Dance Monkey</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/silent_10sec.wav
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
@@ -334,7 +334,7 @@ pages:
               <p>🎵 <strong>OneRepublic - Counting Stars</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/silent_10sec.wav
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
@@ -350,7 +350,7 @@ pages:
               <p>🎵 <strong>Lady Gaga, Bradley Cooper - Shallow</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/silent_10sec.wav
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
@@ -366,7 +366,7 @@ pages:
               <p>🎵 <strong>twenty one pilots - Stressed Out</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/silent_10sec.wav
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
@@ -382,7 +382,7 @@ pages:
               <p>🎵 <strong>Passenger - Let Her Go</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/silent_10sec.wav
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
@@ -398,7 +398,7 @@ pages:
               <p>🎵 <strong>Imagine Dragons - Demons</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/silent_10sec.wav
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
@@ -414,7 +414,7 @@ pages:
               <p>🎵 <strong>Arctic Monkeys - Do I Wanna Know</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/silent_10sec.wav
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
@@ -430,7 +430,7 @@ pages:
               <p>🎵 <strong>Olivia Rodrigo - drivers license(Explicit)</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/silent_10sec.wav
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
@@ -446,7 +446,7 @@ pages:
               <p>🎵 <strong>Ariana Grande - thank u, next(Explicit)</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/silent_10sec.wav
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
@@ -462,7 +462,7 @@ pages:
               <p>🎵 <strong>The Hourglass Effect - But Anyways</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/silent_10sec.wav
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
