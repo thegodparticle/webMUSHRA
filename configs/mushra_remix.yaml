@@ -98,17 +98,17 @@ pages:
         <p>Enjoy rating the songs and telling us how well you know them! Your opinion is important, so thank you for sharing it with us! 🎵🎶</p>      
       stimuli:
           C1: configs/resources/musicfiles/Trail1/remix_V1_normalized.wav
-          C2: configs/resources/musicfiles/Trail1/remix_V1_normalized.wav
-          C3: configs/resources/musicfiles/Trail1/remix_V1_normalized.wav
-          C4: configs/resources/musicfiles/Trail1/remix_V1_normalized.wav
-          C5: configs/resources/musicfiles/Trail1/remix_V1_normalized.wav
-          C6: configs/resources/musicfiles/Trail1/remix_V1_normalized.wav
-          C7: configs/resources/musicfiles/Trail1/remix_V1_normalized.wav
-          C8: configs/resources/musicfiles/Trail1/remix_V1_normalized.wav
-          C9: configs/resources/musicfiles/Trail1/remix_V1_normalized.wav
-          C10: configs/resources/musicfiles/Trail1/remix_V1_normalized.wav
-          C11: configs/resources/musicfiles/Trail1/remix_V1_normalized.wav
-          C12: configs/resources/musicfiles/Trail1/remix_V1_normalized.wav
+          C2: configs/resources/musicfiles/Trail2/remix_V1_normalized.wav
+          C3: configs/resources/musicfiles/Trail3/remix_V1_normalized.wav
+          C4: configs/resources/musicfiles/Trail4/remix_V1_normalized.wav
+          C5: configs/resources/musicfiles/Trail5/remix_V1_normalized.wav
+          C6: configs/resources/musicfiles/Trail6/remix_V1_normalized.wav
+          C7: configs/resources/musicfiles/Trail7/remix_V1_normalized.wav
+          C8: configs/resources/musicfiles/Trail8/remix_V1_normalized.wav
+          C9: configs/resources/musicfiles/Trail9/remix_V1_normalized.wav
+          C10: configs/resources/musicfiles/Trail10/remix_V1_normalized.wav
+          C11: configs/resources/musicfiles/Trail11/remix_V1_normalized.wav
+          C12: configs/resources/musicfiles/Trail12/remix_V1_normalized.wav
       response:
         - value: Not Familiar at All
           label: Not Familiar at All
@@ -149,7 +149,7 @@ pages:
         <h2><strong>Training Introduction</strong></h2>
 
         <p>Hello and welcome to the training session! Before we dive into the actual test, we want to make sure you're well-prepared and understand the process. This training will provide you with the necessary tools and insights to tackle the main test with confidence. Let's embark on this <strong>informative and enlightening</strong> journey together!</p>        
-        <img src="../configs/resources/images/practice.png" width="300" height="300">
+        <img src="../configs/resources/images/practice.jpg" width="300" height="300">
     
         <h3><strong>Purpose of the Training:</strong></h3>
         <p>The primary goal of this training is to familiarize you with the format and expectations of the main test. By the end of this session, you'll have a clear understanding of the grading system, your role, and how to approach different remixed versions of a song.</p>
@@ -257,7 +257,7 @@ pages:
         
             <p>We're delighted that you're here, ready to embark on this musical journey. Having completed the training, you're now well-equipped for the real test. Let's dive right in!</p>
             
-            <img src="../configs/resources/images/intropage.png" width="300" height="300">
+            <img src="../configs/resources/images/intropage.jpg" width="300" height="300">
         
             <h3><strong>Quick Reminders:</strong></h3>
             <ul>
