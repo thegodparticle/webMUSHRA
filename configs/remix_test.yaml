@@ -287,15 +287,15 @@ pages:
               <p>🎵 <strong>The Weeknd - Blinding Lights</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            reference: configs/resources/musicfiles/Trail1/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
+            randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail1/remix_V1_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail1/remix_V2_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail1/remix_V3_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail1/remix_V4_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Trail1/remix_V5_normalized_stereo.wav
+                C1: configs/resources/musicfiles/Trail1/remix_V2_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail1/remix_V3_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail1/remix_V4_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail1/remix_V5_normalized_stereo.wav  
           - type: mushra
             id: trail2
             name: Listening Test
@@ -303,15 +303,15 @@ pages:
               <p>🎵 <strong>Ed Sheeran - Shape of You</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            reference: configs/resources/musicfiles/Trail2/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
+            randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail2/remix_V1_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail2/remix_V2_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail2/remix_V3_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail2/remix_V4_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Trail2/remix_V5_normalized_stereo.wav
+                C1: configs/resources/musicfiles/Trail2/remix_V2_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail2/remix_V3_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail2/remix_V4_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail2/remix_V5_normalized_stereo.wav  
           - type: mushra
             id: trail3
             name: Listening Test
@@ -319,15 +319,15 @@ pages:
               <p>🎵 <strong>Tones and I - Dance Monkey</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            reference: configs/resources/musicfiles/Trail3/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
+            randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail3/remix_V1_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail3/remix_V2_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail3/remix_V3_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail3/remix_V4_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Trail3/remix_V5_normalized_stereo.wav
+                C1: configs/resources/musicfiles/Trail3/remix_V2_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail3/remix_V3_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail3/remix_V4_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail3/remix_V5_normalized_stereo.wav  
           - type: mushra
             id: trail4
             name: Listening Test
@@ -335,15 +335,15 @@ pages:
               <p>🎵 <strong>OneRepublic - Counting Stars</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            reference: configs/resources/musicfiles/Trail4/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
+            randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail4/remix_V1_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail4/remix_V2_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail4/remix_V3_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail4/remix_V4_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Trail4/remix_V5_normalized_stereo.wav 
+                C1: configs/resources/musicfiles/Trail4/remix_V2_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail4/remix_V3_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail4/remix_V4_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail4/remix_V5_normalized_stereo.wav  
           - type: mushra
             id: trail5
             name: Listening Test
@@ -351,15 +351,15 @@ pages:
               <p>🎵 <strong>Lady Gaga, Bradley Cooper - Shallow</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            reference: configs/resources/musicfiles/Trail5/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
+            randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail5/remix_V1_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail5/remix_V2_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail5/remix_V3_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail5/remix_V4_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Trail5/remix_V5_normalized_stereo.wav
+                C1: configs/resources/musicfiles/Trail5/remix_V2_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail5/remix_V3_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail5/remix_V4_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail5/remix_V5_normalized_stereo.wav  
           - type: mushra
             id: trail6
             name: Listening Test
@@ -367,15 +367,15 @@ pages:
               <p>🎵 <strong>twenty one pilots - Stressed Out</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            reference: configs/resources/musicfiles/Trail6/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
+            randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail6/remix_V1_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail6/remix_V2_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail6/remix_V3_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail6/remix_V4_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Trail6/remix_V5_normalized_stereo.wav
+                C1: configs/resources/musicfiles/Trail6/remix_V2_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail6/remix_V3_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail6/remix_V4_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail6/remix_V5_normalized_stereo.wav 
           - type: mushra
             id: trail7
             name: Listening Test
@@ -383,15 +383,15 @@ pages:
               <p>🎵 <strong>Passenger - Let Her Go</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            reference: configs/resources/musicfiles/Trail7/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
+            randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail7/remix_V1_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail7/remix_V2_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail7/remix_V3_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail7/remix_V4_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Trail7/remix_V5_normalized_stereo.wav
+                C1: configs/resources/musicfiles/Trail7/remix_V2_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail7/remix_V3_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail7/remix_V4_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail7/remix_V5_normalized_stereo.wav 
           - type: mushra
             id: trail8
             name: Listening Test
@@ -399,15 +399,15 @@ pages:
               <p>🎵 <strong>Imagine Dragons - Demons</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            reference: configs/resources/musicfiles/Trail8/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
+            randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail8/remix_V1_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail8/remix_V2_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail8/remix_V3_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail8/remix_V4_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Trail8/remix_V5_normalized_stereo.wav
+                C1: configs/resources/musicfiles/Trail8/remix_V2_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail8/remix_V3_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail8/remix_V4_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail8/remix_V5_normalized_stereo.wav 
           - type: mushra
             id: trail9
             name: Listening Test
@@ -415,15 +415,15 @@ pages:
               <p>🎵 <strong>Arctic Monkeys - Do I Wanna Know</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            reference: configs/resources/musicfiles/Trail9/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
+            randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail9/remix_V1_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail9/remix_V2_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail9/remix_V3_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail9/remix_V4_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Trail9/remix_V5_normalized_stereo.wav
+                C1: configs/resources/musicfiles/Trail9/remix_V2_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail9/remix_V3_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail9/remix_V4_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail9/remix_V5_normalized_stereo.wav 
           - type: mushra
             id: trail10
             name: Listening Test
@@ -431,15 +431,15 @@ pages:
               <p>🎵 <strong>Olivia Rodrigo - drivers license(Explicit)</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            reference: configs/resources/musicfiles/Trail10/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
+            randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail10/remix_V1_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail10/remix_V2_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail10/remix_V3_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail10/remix_V4_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Trail10/remix_V5_normalized_stereo.wav
+                C1: configs/resources/musicfiles/Trail10/remix_V2_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail10/remix_V3_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail10/remix_V4_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail10/remix_V5_normalized_stereo.wav 
           - type: mushra
             id: trail11
             name: Listening Test
@@ -447,15 +447,15 @@ pages:
               <p>🎵 <strong>Ariana Grande - thank u, next(Explicit)</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            reference: configs/resources/musicfiles/Trail11/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
+            randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail11/remix_V1_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail11/remix_V2_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail11/remix_V3_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail11/remix_V4_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Trail11/remix_V5_normalized_stereo.wav
+                C1: configs/resources/musicfiles/Trail11/remix_V2_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail11/remix_V3_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail11/remix_V4_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail11/remix_V5_normalized_stereo.wav 
           - type: mushra
             id: trail12
             name: Listening Test
@@ -463,15 +463,15 @@ pages:
               <p>🎵 <strong>The Hourglass Effect - But Anyways</strong> 🎧</p>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            reference: configs/resources/musicfiles/Trail12/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
+            randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail12/remix_V1_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail12/remix_V2_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail12/remix_V3_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail12/remix_V4_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Trail12/remix_V5_normalized_stereo.wav                   
+                C1: configs/resources/musicfiles/Trail12/remix_V2_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail12/remix_V3_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail12/remix_V4_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail12/remix_V5_normalized_stereo.wav                  
 
     - type: finish
       name: Thank you
