@@ -199,7 +199,6 @@ pages:
             reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
-            strict: false
             randomize: true
             stimuli:
                 C1: configs/resources/musicfiles/Training1/remix_V2_normalized_stereo.wav
@@ -218,7 +217,6 @@ pages:
             reference: configs/resources/musicfiles/Training2/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
-            strict: false
             randomize: true            
             stimuli:
                 C1: configs/resources/musicfiles/Training2/remix_V2_normalized_stereo.wav
@@ -524,7 +522,7 @@ pages:
       questionnaire:
           - type: text
             label: ParticipantCode
-            name: Participant Code        
+            name: ParticipantCode        
           - type: text
             label: eMail
             name: email
@@ -544,6 +542,3 @@ pages:
                label: Male
              - value: other
                label: Other
-          - type: text
-            label: Feedback
-            name: Please add your feedback here!               
