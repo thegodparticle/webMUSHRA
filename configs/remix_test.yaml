@@ -193,54 +193,57 @@ pages:
             content: |
               <p><strong>Training Page</strong></p>
               
-              <p>Juice WRLD - Lucid Dreams(Explicit)</p>
+              <p>🎵 <strong>Juice WRLD - Lucid Dreams(Explicit)</strong> 🎧</p>    
             showWaveform: true
             enableLooping: true 
             reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
+            strict: false
+            randomize: true
             stimuli:
-                C1: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Training1/remix_V2_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Training1/remix_V3_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Training1/remix_V4_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Training1/remix_V5_normalized_stereo.wav                
+                C1: configs/resources/musicfiles/Training1/remix_V2_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Training1/remix_V3_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Training1/remix_V4_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Training1/remix_V5_normalized_stereo.wav                
           - type: mushra
             id: training2
             name: Training
             content: |
               <p><strong>Training Page</strong></p>
               
-              <p>The Neighbourhood - Sweater Weather</p>             
+              <p>🎵 <strong>The Neighbourhood - Sweater Weather</strong> 🎧</p>              
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            reference: configs/resources/musicfiles/Training2/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
+            strict: false
+            randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Training2/remix_V1_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Training2/remix_V2_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Training2/remix_V3_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Training2/remix_V4_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Training2/remix_V5_normalized_stereo.wav      
+                C1: configs/resources/musicfiles/Training1/remix_V2_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Training1/remix_V3_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Training1/remix_V4_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Training1/remix_V5_normalized_stereo.wav       
           - type: mushra
             id: training3
             name: Training
             content: |
               <p><strong>Training Page</strong></p>
               
-              <p>Avicii - Wake Me Up (Radio Edit)</p>                    
+              <p>🎵 <strong>Avicii - Wake Me Up (Radio Edit)</strong> 🎧</p>
+              
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            reference: configs/resources/musicfiles/Training3/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
+            randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Training3/remix_V1_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Training3/remix_V2_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Training3/remix_V3_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Training3/remix_V4_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Training3/remix_V5_normalized_stereo.wav                 
+                C1: configs/resources/musicfiles/Training1/remix_V2_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Training1/remix_V3_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Training1/remix_V4_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Training1/remix_V5_normalized_stereo.wav                 
     - type: generic
       id: test_page_intro
       name: Test Page Intro
