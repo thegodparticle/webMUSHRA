@@ -1,0 +1,546 @@
+testname: Remix for Cochlear Implants
+testId: Remix_Listening_Test
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+remoteService: service/write.php
+
+
+pages:
+    - type: generic
+      id: first_page
+      name: Welcome
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <title>Music Grading Test Instructions</title>
+        </head>
+        <body>
+
+        <h2><strong>Test Instructions</strong></h2>
+
+        <p>Hello and welcome to this music grading test! We're excited to have you here. In this test, we're going to listen to some remixed versions of a song and assign grades to them using a scale. Don't worry, it's going to be a <strong>fun and enjoyable</strong> experience!</p>
+        
+        <img src="../configs/resources/images/DJman.png" width="300" height="300">
+        
+        <h3><strong>Purpose of the Test:</strong></h3>
+        <p>The purpose of this test is to help us understand your preferences for different remixed versions of a song. Your grades will help us figure out which versions you find the <strong>most enjoyable</strong>.</p>
+        
+        <h3><strong>How the Test Works:</strong></h3>
+        <ul>
+          <li>In each trial, you will listen to <strong>5 different remixed versions</strong> of a song.</li>
+          <li>Your job is to listen to each version and decide which one you find the <strong>most enjoyable</strong>. This version will be your <strong>reference</strong>, and you'll assign it a grade of <strong>100</strong>.</li>
+          <li>After you've selected the most enjoyable version, you will compare the other versions to this reference. Assign scores from <strong>0 to 100</strong> based on how much you like each version compared to your reference.</li>
+        </ul>
+        
+        <h3><strong>Listening and Grading:</strong></h3>
+        <ul>
+          <li>You are free to listen to the versions <strong>in any order you like</strong>.</li>
+          <li>You can listen to each version as <strong>many times</strong> as you want before assigning a grade.</li>
+          <li>Remember, you're the expert here! Your grades will help us understand your <strong>musical preferences</strong>.</li>
+        </ul>
+        
+        <h3><strong>Grading Scale:</strong></h3>
+        <ul>
+          <li><strong>100</strong>: The version you find most enjoyable. You'll assign this score to your reference version.</li>
+          <li><strong>0-100</strong>: For other versions, assign a score based on how much you like them compared to your reference.</li>
+        </ul>
+        
+        <h3><strong>Important Notes:</strong></h3>
+        <ul>
+          <li>There are <strong>no right or wrong answers</strong>. We're interested in your <strong>personal preferences</strong>.</li>
+          <li>Take your time, enjoy the music, and have <strong>fun</strong> with this test!</li>
+        </ul>
+        
+        <p>Thank you for participating, and let's get started! If you have any questions, feel free to ask the test conductor.</p>
+
+        </body>
+        </html>
+    - type: consent
+      id: consent_page
+      name: Consent
+      mustConsent: true
+      content: <p>You are participating in a listening test. For this, we want to store the answers you give to the following questions.<br>Do you give consent for this?</p>
+    - type: volume
+      id: volume
+      name: Volume Calibration
+      content: |
+          <p>Welcome to the Volume Calibration page.</p>
+          <p>In this part of the test, we want to make sure that the volume of the sounds is just right for you. You'll be listening to a short sound clip, and we'd like you to adjust the volume to the most comfortable level for your ears.</p>
+          <p>When you're ready, click the "Play" button to listen to the sound. Then, use the slider to increase or decrease the volume until it's comfortable for you. Don't worry, there's no right or wrong answer!</p>
+          <p>Once you've set the volume to your liking, you can move on to the next part of the test. Have fun!</p>
+      stimulus: configs/resources/musicfiles/Calibration/remix_V1_normalized_stereo.wav  
+      defaultVolume: 0.8
+    - type: likert_multi_stimulus
+      id: lms4
+      name: likert
+      mustRate: true
+      randomize: true
+      content: |
+        <p><strong>Familiarity Rating for Songs</strong></p>
+        <p><strong>Hello!</strong> We have a fun activity for you where you can let us know how well you know different songs.</p>
+        <p><strong>Here's what you need to do:</strong></p>
+        <ol>
+          <li><strong>Step 1:</strong> You'll see a list of songs. We want to know how familiar you are with each song. Familiar means how well you know or recognize the song.</li>
+          <li><strong>Step 2:</strong> Look at the scale below each song. The scale has levels that show how well you know the song. Choose the level that best describes your familiarity with the song:</li>
+        </ol>
+        <blockquote>
+          <ul>
+            <li>Very Familiar</li>
+            <li>Quite Familiar</li>
+            <li>Somewhat Familiar</li>
+            <li>Not Very Familiar</li>
+            <li>Not Familiar at All</li>
+          </ul>
+        </blockquote>
+        <p><strong>Remember:</strong> It's okay to not know some songs, and it's great if you know others really well! Just have fun and be honest with your choices.</p>
+        <p>Enjoy rating the songs and telling us how well you know them! Your opinion is important, so thank you for sharing it with us! 🎵🎶</p>      
+      stimuli:
+          C1: configs/resources/musicfiles/Trail1/remix_V1_normalized_stereo.wav
+          C2: configs/resources/musicfiles/Trail2/remix_V1_normalized_stereo.wav
+          C3: configs/resources/musicfiles/Trail3/remix_V1_normalized_stereo.wav
+          C4: configs/resources/musicfiles/Trail4/remix_V1_normalized_stereo.wav
+          C5: configs/resources/musicfiles/Trail5/remix_V1_normalized_stereo.wav
+          C6: configs/resources/musicfiles/Trail6/remix_V1_normalized_stereo.wav
+          C7: configs/resources/musicfiles/Trail7/remix_V1_normalized_stereo.wav
+          C8: configs/resources/musicfiles/Trail8/remix_V1_normalized_stereo.wav
+          C9: configs/resources/musicfiles/Trail9/remix_V1_normalized_stereo.wav
+          C10: configs/resources/musicfiles/Trail10/remix_V1_normalized_stereo.wav
+          C11: configs/resources/musicfiles/Trail11/remix_V1_normalized_stereo.wav
+          C12: configs/resources/musicfiles/Trail12/remix_V1_normalized_stereo.wav
+      response:
+        - value: Not Familiar at All
+          label: Not Familiar at All
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+        - value: Not Very Familiar
+          label: Not Very Familiar
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+        - value: Somewhat Familiar
+          label: Somewhat Familiar
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+        - value: Quite Familiar
+          label: Quite Familiar
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+        - value: Very Familiar
+          label: Very Familiar
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png          
+    - type: generic
+      id: training_page_intro
+      name: Training
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <title>Training Introduction</title>
+        </head>
+        <body>
+
+        <h2><strong>Training Introduction</strong></h2>
+
+        <p>Hello and welcome to the training session! Before we dive into the actual test, we want to make sure you're well-prepared and understand the process. This training will provide you with the necessary tools and insights to tackle the main test with confidence. Let's embark on this <strong>informative and enlightening</strong> journey together!</p>        
+        <img src="../configs/resources/images/practice.jpg" width="300" height="300">
+    
+        <h3><strong>Purpose of the Training:</strong></h3>
+        <p>The primary goal of this training is to familiarize you with the format and expectations of the main test. By the end of this session, you'll have a clear understanding of the grading system, your role, and how to approach different remixed versions of a song.</p>
+    
+        <h3><strong>How the Test Works:</strong></h3>
+          <ul>
+            <li>In each trial, you will listen to <strong>5 different remixed versions</strong> of a song.</li>
+            <li>Your job is to listen to each version and decide which one you find the <strong>most enjoyable</strong>. This version will be your <strong>reference</strong>, and you'll assign it a grade of <strong>100</strong>.</li>
+            <li>After you've selected the most enjoyable version, you will compare the other versions to this reference. Assign scores from <strong>0 to 100</strong> based on how much you like each version compared to your reference.</li>
+          </ul>
+          
+          <h3><strong>Listening and Grading:</strong></h3>
+          <ul>
+            <li>You are free to listen to the versions <strong>in any order you like</strong>.</li>
+            <li>You can listen to each version as <strong>many times</strong> as you want before assigning a grade.</li>
+            <li>Remember, you're the expert here! Your grades will help us understand your <strong>musical preferences</strong>.</li>
+          </ul>
+          
+          <h3><strong>Grading Scale:</strong></h3>
+          <ul>
+            <li><strong>100</strong>: The version you find most enjoyable. You'll assign this score to your reference version.</li>
+            <li><strong>0-100</strong>: For other versions, assign a score based on how much you like them compared to your reference.</li>
+          </ul> 
+    
+        <h3><strong>Keep in Mind:</strong></h3>
+        <ul>
+            <li>This is just a training session, so there's <strong>no pressure</strong> to be perfect.</li>
+            <li>Our aim is to make you comfortable with the format, so enjoy the session and have <strong>fun</strong>!</li>
+        </ul>
+    
+        <p>Thank you for your attention. Let's begin the training! If you have any queries, our facilitator is here to assist you.</p>
+    
+        </body>
+    
+        </html>        
+    - 
+          - random          
+          - type: mushra
+            id: training1
+            name: Training
+            content: |
+              <p><strong>Training Page</strong></p>
+              
+              <p>Juice WRLD - Lucid Dreams(Explicit)</p>
+            showWaveform: true
+            enableLooping: true 
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Training1/remix_V2_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Training1/remix_V3_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Training1/remix_V4_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Training1/remix_V5_normalized_stereo.wav                
+          - type: mushra
+            id: training2
+            name: Training
+            content: |
+              <p><strong>Training Page</strong></p>
+              
+              <p>The Neighbourhood - Sweater Weather</p>             
+            showWaveform: true
+            enableLooping: true 
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/resources/musicfiles/Training2/remix_V1_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Training2/remix_V2_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Training2/remix_V3_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Training2/remix_V4_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Training2/remix_V5_normalized_stereo.wav      
+          - type: mushra
+            id: training3
+            name: Training
+            content: |
+              <p><strong>Training Page</strong></p>
+              
+              <p>Avicii - Wake Me Up (Radio Edit)</p>                    
+            showWaveform: true
+            enableLooping: true 
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/resources/musicfiles/Training3/remix_V1_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Training3/remix_V2_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Training3/remix_V3_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Training3/remix_V4_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Training3/remix_V5_normalized_stereo.wav                 
+    - type: generic
+      id: test_page_intro
+      name: Test Page Intro
+      content: |
+        <html>
+        
+        <head>
+            <title>Test Introduction</title>
+        </head>
+        
+        <body>
+        
+            <h2><strong>Welcome to the Main Test!</strong></h2>
+        
+            <p>We're delighted that you're here, ready to embark on this musical journey. Having completed the training, you're now well-equipped for the real test. Let's dive right in!</p>
+            
+            <img src="../configs/resources/images/intropage.jpg" width="300" height="300">
+        
+            <h3><strong>Quick Reminders:</strong></h3>
+            <ul>
+                <li>Select the version you find <strong>most enjoyable</strong> as your reference and assign it a grade of <strong>100</strong>.</li>
+                <li>Grade the other versions from <strong>0 to 100</strong> based on their comparison to your reference.</li>
+                <li>Feel free to listen in <strong>any order</strong> and as <strong>often</strong> as you need.</li>
+            </ul>
+        
+            <h3><strong>Final Notes:</strong></h3>
+            <ul>
+                <li>Trust your instincts and remember, this is about your <strong>personal preferences</strong>.</li>
+                <li>Relax, enjoy the music, and have <strong>fun</strong>!</li>
+            </ul>
+        
+            <p>Best of luck with the test! If you have any last-minute questions, we are here to help.</p>
+        
+        </body>
+        
+        </html>                     
+    - 
+          - random
+          - type: mushra
+            id: trail1
+            name: Listening Test
+            content: |
+              <p>🎵 <strong>The Weeknd - Blinding Lights</strong> 🎧</p>
+            showWaveform: true
+            enableLooping: true 
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/resources/musicfiles/Trail1/remix_V1_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail1/remix_V2_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail1/remix_V3_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail1/remix_V4_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Trail1/remix_V5_normalized_stereo.wav
+          - type: mushra
+            id: trail2
+            name: Listening Test
+            content: |
+              <p>🎵 <strong>Ed Sheeran - Shape of You</strong> 🎧</p>
+            showWaveform: true
+            enableLooping: true 
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/resources/musicfiles/Trail2/remix_V1_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail2/remix_V2_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail2/remix_V3_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail2/remix_V4_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Trail2/remix_V5_normalized_stereo.wav
+          - type: mushra
+            id: trail3
+            name: Listening Test
+            content: |
+              <p>🎵 <strong>Tones and I - Dance Monkey</strong> 🎧</p>
+            showWaveform: true
+            enableLooping: true 
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/resources/musicfiles/Trail3/remix_V1_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail3/remix_V2_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail3/remix_V3_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail3/remix_V4_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Trail3/remix_V5_normalized_stereo.wav
+          - type: mushra
+            id: trail4
+            name: Listening Test
+            content: |
+              <p>🎵 <strong>OneRepublic - Counting Stars</strong> 🎧</p>
+            showWaveform: true
+            enableLooping: true 
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/resources/musicfiles/Trail4/remix_V1_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail4/remix_V2_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail4/remix_V3_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail4/remix_V4_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Trail4/remix_V5_normalized_stereo.wav 
+          - type: mushra
+            id: trail5
+            name: Listening Test
+            content: |
+              <p>🎵 <strong>Lady Gaga, Bradley Cooper - Shallow</strong> 🎧</p>
+            showWaveform: true
+            enableLooping: true 
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/resources/musicfiles/Trail5/remix_V1_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail5/remix_V2_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail5/remix_V3_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail5/remix_V4_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Trail5/remix_V5_normalized_stereo.wav
+          - type: mushra
+            id: trail6
+            name: Listening Test
+            content: |
+              <p>🎵 <strong>twenty one pilots - Stressed Out</strong> 🎧</p>
+            showWaveform: true
+            enableLooping: true 
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/resources/musicfiles/Trail6/remix_V1_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail6/remix_V2_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail6/remix_V3_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail6/remix_V4_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Trail6/remix_V5_normalized_stereo.wav
+          - type: mushra
+            id: trail7
+            name: Listening Test
+            content: |
+              <p>🎵 <strong>Passenger - Let Her Go</strong> 🎧</p>
+            showWaveform: true
+            enableLooping: true 
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/resources/musicfiles/Trail7/remix_V1_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail7/remix_V2_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail7/remix_V3_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail7/remix_V4_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Trail7/remix_V5_normalized_stereo.wav
+          - type: mushra
+            id: trail8
+            name: Listening Test
+            content: |
+              <p>🎵 <strong>Imagine Dragons - Demons</strong> 🎧</p>
+            showWaveform: true
+            enableLooping: true 
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/resources/musicfiles/Trail8/remix_V1_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail8/remix_V2_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail8/remix_V3_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail8/remix_V4_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Trail8/remix_V5_normalized_stereo.wav
+          - type: mushra
+            id: trail9
+            name: Listening Test
+            content: |
+              <p>🎵 <strong>Arctic Monkeys - Do I Wanna Know</strong> 🎧</p>
+            showWaveform: true
+            enableLooping: true 
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/resources/musicfiles/Trail9/remix_V1_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail9/remix_V2_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail9/remix_V3_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail9/remix_V4_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Trail9/remix_V5_normalized_stereo.wav
+          - type: mushra
+            id: trail10
+            name: Listening Test
+            content: |
+              <p>🎵 <strong>Olivia Rodrigo - drivers license(Explicit)</strong> 🎧</p>
+            showWaveform: true
+            enableLooping: true 
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/resources/musicfiles/Trail10/remix_V1_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail10/remix_V2_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail10/remix_V3_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail10/remix_V4_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Trail10/remix_V5_normalized_stereo.wav
+          - type: mushra
+            id: trail11
+            name: Listening Test
+            content: |
+              <p>🎵 <strong>Ariana Grande - thank u, next(Explicit)</strong> 🎧</p>
+            showWaveform: true
+            enableLooping: true 
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/resources/musicfiles/Trail11/remix_V1_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail11/remix_V2_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail11/remix_V3_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail11/remix_V4_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Trail11/remix_V5_normalized_stereo.wav
+          - type: mushra
+            id: trail12
+            name: Listening Test
+            content: |
+              <p>🎵 <strong>The Hourglass Effect - But Anyways</strong> 🎧</p>
+            showWaveform: true
+            enableLooping: true 
+            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            createAnchor35: false
+            createAnchor70: false
+            stimuli:
+                C1: configs/resources/musicfiles/Trail12/remix_V1_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Trail12/remix_V2_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Trail12/remix_V3_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Trail12/remix_V4_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Trail12/remix_V5_normalized_stereo.wav                   
+
+    - type: finish
+      name: Thank you
+      content: |
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Thank You!</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f4f4f4;
+                    text-align: center;
+                    padding-top: 50px;
+                }
+        
+                .thank-you-container {
+                    background-color: #fff;
+                    padding: 20px;
+                    border-radius: 8px;
+                    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+                    display: inline-block;
+                }
+        
+                h1 {
+                    color: #333;
+                }
+        
+                p {
+                    color: #666;
+                    font-size: 16px;
+                }
+            </style>
+        </head>
+        <body>
+        
+        <div class="thank-you-container">
+            <h1>🙌 Thank You! 🙌</h1>
+            <p>Thank you for attending! We appreciate your time and effort. We hope to see you again soon.</p>
+        </div>
+        
+        </body>
+        </html>      
+      showResults: true
+      writeResults: true
+      questionnaire:
+          - type: text
+            label: ParticipantCode
+            name: Participant Code        
+          - type: text
+            label: eMail
+            name: email
+          - type: number
+            label: Age
+            name: age
+            min: 0
+            max: 100
+            default: 30
+          - type: likert
+            name: gender
+            label: Gender
+            response:
+             - value: female
+               label: Female
+             - value: male
+               label: Male
+             - value: other
+               label: Other
+          - type: text
+            label: Feedback
+            name: Please add your feedback here!               
