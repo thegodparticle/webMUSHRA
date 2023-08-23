@@ -221,10 +221,10 @@ pages:
             strict: false
             randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Training1/remix_V2_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Training1/remix_V3_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Training1/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Training1/remix_V5_normalized_stereo.wav       
+                C1: configs/resources/musicfiles/Training2/remix_V2_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Training2/remix_V3_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Training2/remix_V4_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Training2/remix_V5_normalized_stereo.wav       
           - type: mushra
             id: training3
             name: Training
@@ -240,10 +240,10 @@ pages:
             createAnchor70: false
             randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Training1/remix_V2_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Training1/remix_V3_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Training1/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Training1/remix_V5_normalized_stereo.wav                 
+                C1: configs/resources/musicfiles/Training3/remix_V2_normalized_stereo.wav
+                C2: configs/resources/musicfiles/Training3/remix_V3_normalized_stereo.wav
+                C3: configs/resources/musicfiles/Training3/remix_V4_normalized_stereo.wav
+                C4: configs/resources/musicfiles/Training3/remix_V5_normalized_stereo.wav                 
     - type: generic
       id: test_page_intro
       name: Test Page Intro
