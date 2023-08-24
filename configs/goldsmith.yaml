@@ -1,0 +1,76 @@
+testname: Goldsmiths Musical Sophistication Index
+testId: GOLDMSI
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+remoteService: service/write.php
+
+pages:
+    - type: generic
+      id: first_page
+      name: Welcome
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 5px 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    Question 1 out of 29<br>
+                    I spend a lot of my free time doing music-related activities.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>
