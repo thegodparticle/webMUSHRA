@@ -3,12 +3,12 @@ testId: GOLDMSI
 bufferSize: 2048
 stopOnErrors: true
 showButtonPreviousPage: true
-remoteService: service/write.php
+remoteService: service/write_goldMSI.php
 
 pages:
     - type: generic
-      id: first_page
-      name: Welcome
+      id: Question_1
+      name: Question 1 out of 39
       content: |
         <!DOCTYPE html>
         <html>
@@ -21,23 +21,31 @@ pages:
                 }
                 .survey-question {
                     font-weight: bold;
+                    font-size: 18px;
                     margin-bottom: 10px;
+                    text-align: center;
                 }
                 .survey-options {
                     list-style-type: none;
                     padding: 0;
                     display: flex;
                     flex-direction: column;
+                    align-items: center;
                 }
                 .survey-option {
                     margin-bottom: 5px;
                 }
                 .survey-button {
                     display: inline-block;
-                    padding: 5px 10px;
+                    padding: 10px 20px;
                     border: 1px solid #ccc;
                     border-radius: 4px;
                     cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
                 }
             </style>
             <title>Survey</title>
@@ -45,7 +53,6 @@ pages:
         <body>
             <div class="survey">
                 <div class="survey-question">
-                    Question 1 out of 29<br>
                     I spend a lot of my free time doing music-related activities.
                 </div>
                 <ul class="survey-options">
@@ -74,3 +81,2862 @@ pages:
             </div>
         </body>
         </html>
+    - type: generic
+      id: Question_2
+      name: Question 2 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I sometimes choose music that can trigger shivers down my spine.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_3
+      name: Question 3 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I enjoy writing about music, for example on blogs and forums.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_4
+      name: Question 4 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    If somebody starts singing a song I don't know, I can usually join in.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_5
+      name: Question 5 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I am able to judge whether someone is a good singer or not.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_6
+      name: Question 6 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I usually know when I'm hearing a song for the first time.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_7
+      name: Question 7 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I can sing or play music from memory.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_8
+      name: Question 8 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I'm intrigued by musical styles I'm not familiar with and want to find out more.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_9
+      name: Question 9 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    Pieces of music rarely evoke emotions for me.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_10
+      name: Question 10 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I am able to hit the right notes when I sing along with a recording.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_11
+      name: Question 11 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I find it difficult to spot mistakes in a performance of a song even if I know the tune.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_12
+      name: Question 12 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I can compare and discuss differences between two performances or versions of the same piece of music.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_13
+      name: Question 13 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I have trouble recognizing a familiar song when played in a different way or by a different performer.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_14
+      name: Question 14 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I have never been complimented for my talents as a musical performer.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_15
+      name: Question 15 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I often read or search the internet for things related to music.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_16
+      name: Question 16 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I often pick certain music to motivate or excite me.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_17
+      name: Question 17 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I am not able to sing in harmony when somebody is singing a familiar tune.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_18
+      name: Question 18 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I can tell when people sing or play out of time with the beat.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_19
+      name: Question 19 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I am able to identify what is special about a given musical piece.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_20
+      name: Question 20 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I am able to talk about the emotions that a piece of music evokes for me.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_21
+      name: Question 21 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I don't spend much of my disposable income on music.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_22
+      name: Question 22 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I can tell when people sing or play out of tune.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_23
+      name: Question 23 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    When I sing, I have no idea whether I'm in tune or not.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_24
+      name: Question 24 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    Music is kind of an addiction for me -I couldn't live without it.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_25
+      name: Question 25 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I don't like singing in public because I'm afraid that I would sing wrong notes.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_26
+      name: Question 26 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    When I hear a piece of music I can usually identify its genre.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_27
+      name: Question 27 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I would not consider myself a musician.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_28
+      name: Question 28 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I keep track of new music that I come across (e.g. new artists or recordings).
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_29
+      name: Question 29 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    After hearing a new song two or three times, I can usually sing it by myself.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_30
+      name: Question 30 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I only need to hear a new tune once and I can sing it back hours later.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_31
+      name: Question 31 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    Music can evoke my memories of past people and places.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">Completely disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Neither agree nor disagree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Slightly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Mostly agree</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">Completely agree</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_32
+      name: Question 32 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I engaged in regular, daily practice of a musical instrument (including voice) for [] years.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">0</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">1</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">2</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">3</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">4-5</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">6-9</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">10 or more years</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_33
+      name: Question 33 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    At the peak of my interest, I practiced [] hours per day on my primary instrument.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">0</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">0.5</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">1</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">1.5</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">2</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">3-4</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">5 or more</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_34
+      name: Question 34 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I have attended [] live music events as an audience member in the past twelve months.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">0</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">1</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">2</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">3</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">4-6</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">7-10</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">11 or more</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_35
+      name: Question 35 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I have had formal training in music theory for [] years.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">0</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">0.5</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">1</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">2</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">3</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">4-6</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">7 or more</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_36
+      name: Question 36 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I have had [] years of formal training on a musical instrument (including voice) during my lifetime.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">0</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">0.5</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">1</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">2</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">3-5</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">6-9</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">10 or more</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_37
+      name: Question 37 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I can play [] musical instruments.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">0</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">1</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">2</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">3</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">4</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">5</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">6 or more</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_38
+      name: Question 38 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    I listen attentively to music for [] per day.
+                </div>
+                <ul class="survey-options">
+                    <li class="survey-option">
+                        <button class="survey-button">0-15 min</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">15-30 min</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">30-60 min</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">60-90 min</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">2 hrs</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">2-3 hrs</button>
+                    </li>
+                    <li class="survey-option">
+                        <button class="survey-button">4 hrs or more</button>
+                    </li>
+                </ul>
+            </div>
+        </body>
+        </html>  
+    - type: generic
+      id: Question_39
+      name: Question 39 out of 39
+      content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .survey-question {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .survey-options {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .survey-option {
+                    margin-bottom: 5px;
+                }
+                .survey-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #f9f9f9;
+                    transition: background-color 0.3s;
+                }
+                .survey-button:hover {
+                    background-color: #e0e0e0;
+                }
+                .input-field {
+                    width: 100%;
+                    padding: 8px;
+                    margin-top: 10px;
+                    box-sizing: border-box;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                }
+                .submit-button {
+                    display: block;
+                    margin-top: 10px;
+                    padding: 10px 20px;
+                    background-color: #007bff;
+                    color: #fff;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+                .submit-button:hover {
+                    background-color: #0056b3;
+                }
+            </style>
+            <title>Survey</title>
+        </head>
+        <body>
+            <div class="survey">
+                <div class="survey-question">
+                    The instrument I play best (including voice) is....
+                </div>
+                <input type="text" class="input-field" id="instrumentInput" placeholder="Enter your answer">
+                <button class="submit-button" onclick="submitAnswer()">Submit</button>
+            </div>
+            
+            <script>
+                function submitAnswer() {
+                    var answer = document.getElementById("instrumentInput").value;
+                    // You can add your logic here to process and save the answer
+                    alert("Answer submitted: " + answer);
+                }
+            </script>
+        </body>
+        </html>
+
