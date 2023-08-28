@@ -74,7 +74,7 @@ pages:
         <p>When you're ready, click the "Play" button to listen to the sound. Then, use the slider to increase or decrease the volume until it's comfortable for you. Don't worry, there's no right or wrong answer!</p>
         <p><strong>Volume Consistency:</strong> Once you've calibrated the volume to a comfortable level, please ensure to maintain that same volume throughout the entirety of the test. This ensures that your experience is consistent and the test results are accurate. Refrain from making any further adjustments to the volume after this calibration.</p>
         <p>Once you've set and confirmed the volume, you can move on to the next part of the test. Have fun!</p>
-      stimulus: configs/resources/musicfiles/Calibration/remix_V1_normalized_stereo.wav  
+      stimulus: configs/resources/songs/Calibration/remix_V1_normalized_stereo.wav  
       defaultVolume: 0.8
     - type: generic
       id: training_page_intro
@@ -115,16 +115,16 @@ pages:
               </html>
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
+            reference: configs/resources/songs/Training1/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
             randomize: true
             stimuli:
-                C1: configs/resources/musicfiles/Training1/remix_V2_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Training1/remix_V3_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Training1/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Training1/remix_V5_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Training1/remix_V6_normalized_stereo.wav                
+                C1: configs/resources/songs/Training1/remix_V2_normalized_stereo.wav
+                C2: configs/resources/songs/Training1/remix_V3_normalized_stereo.wav
+                C3: configs/resources/songs/Training1/remix_V4_normalized_stereo.wav
+                C4: configs/resources/songs/Training1/remix_V5_normalized_stereo.wav
+                C5: configs/resources/songs/Training1/remix_V6_normalized_stereo.wav                
           - type: mushra
             id: training2
             name: Training
@@ -140,16 +140,16 @@ pages:
               </html>            
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Training2/remix_V1_normalized_stereo.wav
+            reference: configs/resources/songs/Training2/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
             randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Training2/remix_V2_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Training2/remix_V3_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Training2/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Training2/remix_V5_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Training2/remix_V6_normalized_stereo.wav                
+                C1: configs/resources/songs/Training2/remix_V2_normalized_stereo.wav
+                C2: configs/resources/songs/Training2/remix_V3_normalized_stereo.wav
+                C3: configs/resources/songs/Training2/remix_V4_normalized_stereo.wav
+                C4: configs/resources/songs/Training2/remix_V5_normalized_stereo.wav
+                C5: configs/resources/songs/Training2/remix_V6_normalized_stereo.wav                
           - type: mushra
             id: training3
             name: Training
@@ -165,16 +165,16 @@ pages:
               </html>            
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Training3/remix_V1_normalized_stereo.wav
+            reference: configs/resources/songs/Training3/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
             randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Training3/remix_V2_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Training3/remix_V3_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Training3/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Training3/remix_V5_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Training3/remix_V6_normalized_stereo.wav                
+                C1: configs/resources/songs/Training3/remix_V2_normalized_stereo.wav
+                C2: configs/resources/songs/Training3/remix_V3_normalized_stereo.wav
+                C3: configs/resources/songs/Training3/remix_V4_normalized_stereo.wav
+                C4: configs/resources/songs/Training3/remix_V5_normalized_stereo.wav
+                C5: configs/resources/songs/Training3/remix_V6_normalized_stereo.wav                
             
     - type: generic
       id: test_page_intro
@@ -229,16 +229,16 @@ pages:
               </html>            
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Trail1/remix_V1_normalized_stereo.wav
+            reference: configs/resources/songs/Trail1/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
             randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail1/remix_V2_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail1/remix_V3_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail1/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail1/remix_V5_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Trail1/remix_V6_normalized_stereo.wav                
+                C1: configs/resources/songs/Trail1/remix_V2_normalized_stereo.wav
+                C2: configs/resources/songs/Trail1/remix_V3_normalized_stereo.wav
+                C3: configs/resources/songs/Trail1/remix_V4_normalized_stereo.wav
+                C4: configs/resources/songs/Trail1/remix_V5_normalized_stereo.wav
+                C5: configs/resources/songs/Trail1/remix_V6_normalized_stereo.wav                
                 
           - type: mushra
             id: trail02
@@ -255,16 +255,16 @@ pages:
               </html>               
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Trail2/remix_V1_normalized_stereo.wav
+            reference: configs/resources/songs/Trail2/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
             randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail2/remix_V2_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail2/remix_V3_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail2/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail2/remix_V5_normalized_stereo.wav 
-                C5: configs/resources/musicfiles/Trail2/remix_V6_normalized_stereo.wav                
+                C1: configs/resources/songs/Trail2/remix_V2_normalized_stereo.wav
+                C2: configs/resources/songs/Trail2/remix_V3_normalized_stereo.wav
+                C3: configs/resources/songs/Trail2/remix_V4_normalized_stereo.wav
+                C4: configs/resources/songs/Trail2/remix_V5_normalized_stereo.wav 
+                C5: configs/resources/songs/Trail2/remix_V6_normalized_stereo.wav                
                 
           - type: mushra
             id: trail03
@@ -281,16 +281,16 @@ pages:
                   <p>🎶 🎤 🎧 📻 🎸 🎹 🎺 🎻 🥁 🎷</p>
               </body>
               </html>               
-            reference: configs/resources/musicfiles/Trail3/remix_V1_normalized_stereo.wav
+            reference: configs/resources/songs/Trail3/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
             randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail3/remix_V2_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail3/remix_V3_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail3/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail3/remix_V5_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Trail3/remix_V6_normalized_stereo.wav                
+                C1: configs/resources/songs/Trail3/remix_V2_normalized_stereo.wav
+                C2: configs/resources/songs/Trail3/remix_V3_normalized_stereo.wav
+                C3: configs/resources/songs/Trail3/remix_V4_normalized_stereo.wav
+                C4: configs/resources/songs/Trail3/remix_V5_normalized_stereo.wav
+                C5: configs/resources/songs/Trail3/remix_V6_normalized_stereo.wav                
                 
           - type: mushra
             id: trail04
@@ -307,16 +307,16 @@ pages:
               </html>               
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Trail4/remix_V1_normalized_stereo.wav
+            reference: configs/resources/songs/Trail4/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
             randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail4/remix_V2_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail4/remix_V3_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail4/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail4/remix_V5_normalized_stereo.wav 
-                C5: configs/resources/musicfiles/Trail4/remix_V6_normalized_stereo.wav                 
+                C1: configs/resources/songs/Trail4/remix_V2_normalized_stereo.wav
+                C2: configs/resources/songs/Trail4/remix_V3_normalized_stereo.wav
+                C3: configs/resources/songs/Trail4/remix_V4_normalized_stereo.wav
+                C4: configs/resources/songs/Trail4/remix_V5_normalized_stereo.wav 
+                C5: configs/resources/songs/Trail4/remix_V6_normalized_stereo.wav                 
           - type: mushra
             id: trail05
             name: Listening Test
@@ -332,16 +332,16 @@ pages:
                   <p>🎶 🎤 🎧 📻 🎸 🎹 🎺 🎻 🥁 🎷</p>
               </body>
               </html>               
-            reference: configs/resources/musicfiles/Trail5/remix_V1_normalized_stereo.wav
+            reference: configs/resources/songs/Trail5/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
             randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail5/remix_V2_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail5/remix_V3_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail5/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail5/remix_V5_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Trail5/remix_V6_normalized_stereo.wav                 
+                C1: configs/resources/songs/Trail5/remix_V2_normalized_stereo.wav
+                C2: configs/resources/songs/Trail5/remix_V3_normalized_stereo.wav
+                C3: configs/resources/songs/Trail5/remix_V4_normalized_stereo.wav
+                C4: configs/resources/songs/Trail5/remix_V5_normalized_stereo.wav
+                C5: configs/resources/songs/Trail5/remix_V6_normalized_stereo.wav                 
                 
           - type: mushra
             id: trail06
@@ -358,16 +358,16 @@ pages:
                   <p>🎶 🎤 🎧 📻 🎸 🎹 🎺 🎻 🥁 🎷</p>
               </body>
               </html>               
-            reference: configs/resources/musicfiles/Trail6/remix_V1_normalized_stereo.wav
+            reference: configs/resources/songs/Trail6/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
             randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail6/remix_V2_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail6/remix_V3_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail6/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail6/remix_V5_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Trail6/remix_V6_normalized_stereo.wav                   
+                C1: configs/resources/songs/Trail6/remix_V2_normalized_stereo.wav
+                C2: configs/resources/songs/Trail6/remix_V3_normalized_stereo.wav
+                C3: configs/resources/songs/Trail6/remix_V4_normalized_stereo.wav
+                C4: configs/resources/songs/Trail6/remix_V5_normalized_stereo.wav
+                C5: configs/resources/songs/Trail6/remix_V6_normalized_stereo.wav                   
           - type: mushra
             id: trail07
             name: Listening Test
@@ -383,16 +383,16 @@ pages:
                   <p>🎶 🎤 🎧 📻 🎸 🎹 🎺 🎻 🥁 🎷</p>
               </body>
               </html>               
-            reference: configs/resources/musicfiles/Trail7/remix_V1_normalized_stereo.wav
+            reference: configs/resources/songs/Trail7/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
             randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail7/remix_V2_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail7/remix_V3_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail7/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail7/remix_V5_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Trail7/remix_V6_normalized_stereo.wav                
+                C1: configs/resources/songs/Trail7/remix_V2_normalized_stereo.wav
+                C2: configs/resources/songs/Trail7/remix_V3_normalized_stereo.wav
+                C3: configs/resources/songs/Trail7/remix_V4_normalized_stereo.wav
+                C4: configs/resources/songs/Trail7/remix_V5_normalized_stereo.wav
+                C5: configs/resources/songs/Trail7/remix_V6_normalized_stereo.wav                
           - type: mushra
             id: trail08
             name: Listening Test
@@ -408,16 +408,16 @@ pages:
               </html>               
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Trail8/remix_V1_normalized_stereo.wav
+            reference: configs/resources/songs/Trail8/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
             randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail8/remix_V2_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail8/remix_V3_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail8/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail8/remix_V5_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Trail8/remix_V6_normalized_stereo.wav                
+                C1: configs/resources/songs/Trail8/remix_V2_normalized_stereo.wav
+                C2: configs/resources/songs/Trail8/remix_V3_normalized_stereo.wav
+                C3: configs/resources/songs/Trail8/remix_V4_normalized_stereo.wav
+                C4: configs/resources/songs/Trail8/remix_V5_normalized_stereo.wav
+                C5: configs/resources/songs/Trail8/remix_V6_normalized_stereo.wav                
                 
           - type: mushra
             id: trail09
@@ -434,16 +434,16 @@ pages:
               </html>               
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Trail9/remix_V1_normalized_stereo.wav
+            reference: configs/resources/songs/Trail9/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
             randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail9/remix_V2_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail9/remix_V3_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail9/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail9/remix_V5_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Trail9/remix_V6_normalized_stereo.wav                
+                C1: configs/resources/songs/Trail9/remix_V2_normalized_stereo.wav
+                C2: configs/resources/songs/Trail9/remix_V3_normalized_stereo.wav
+                C3: configs/resources/songs/Trail9/remix_V4_normalized_stereo.wav
+                C4: configs/resources/songs/Trail9/remix_V5_normalized_stereo.wav
+                C5: configs/resources/songs/Trail9/remix_V6_normalized_stereo.wav                
                 
           - type: mushra
             id: trail10
@@ -460,16 +460,16 @@ pages:
               </html>               
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Trail10/remix_V1_normalized_stereo.wav
+            reference: configs/resources/songs/Trail10/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
             randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail10/remix_V2_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail10/remix_V3_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail10/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail10/remix_V5_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Trail10/remix_V6_normalized_stereo.wav                
+                C1: configs/resources/songs/Trail10/remix_V2_normalized_stereo.wav
+                C2: configs/resources/songs/Trail10/remix_V3_normalized_stereo.wav
+                C3: configs/resources/songs/Trail10/remix_V4_normalized_stereo.wav
+                C4: configs/resources/songs/Trail10/remix_V5_normalized_stereo.wav
+                C5: configs/resources/songs/Trail10/remix_V6_normalized_stereo.wav                
                 
           - type: mushra
             id: trail11
@@ -486,16 +486,16 @@ pages:
               </html>               
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Trail11/remix_V1_normalized_stereo.wav
+            reference: configs/resources/songs/Trail11/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
             randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail11/remix_V2_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail11/remix_V3_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail11/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail11/remix_V5_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Trail11/remix_V6_normalized_stereo.wav                
+                C1: configs/resources/songs/Trail11/remix_V2_normalized_stereo.wav
+                C2: configs/resources/songs/Trail11/remix_V3_normalized_stereo.wav
+                C3: configs/resources/songs/Trail11/remix_V4_normalized_stereo.wav
+                C4: configs/resources/songs/Trail11/remix_V5_normalized_stereo.wav
+                C5: configs/resources/songs/Trail11/remix_V6_normalized_stereo.wav                
                 
           - type: mushra
             id: trail12
@@ -512,16 +512,16 @@ pages:
               </html>               
             showWaveform: true
             enableLooping: true 
-            reference: configs/resources/musicfiles/Trail12/remix_V1_normalized_stereo.wav
+            reference: configs/resources/songs/Trail12/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
             randomize: true            
             stimuli:
-                C1: configs/resources/musicfiles/Trail12/remix_V2_normalized_stereo.wav
-                C2: configs/resources/musicfiles/Trail12/remix_V3_normalized_stereo.wav
-                C3: configs/resources/musicfiles/Trail12/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail12/remix_V5_normalized_stereo.wav
-                C5: configs/resources/musicfiles/Trail11/remix_V6_normalized_stereo.wav                
+                C1: configs/resources/songs/Trail12/remix_V2_normalized_stereo.wav
+                C2: configs/resources/songs/Trail12/remix_V3_normalized_stereo.wav
+                C3: configs/resources/songs/Trail12/remix_V4_normalized_stereo.wav
+                C4: configs/resources/songs/Trail12/remix_V5_normalized_stereo.wav
+                C5: configs/resources/songs/Trail11/remix_V6_normalized_stereo.wav                
     - type: likert_multi_stimulus
       id: lms4
       name: Familiarity Rating for Songs
@@ -546,18 +546,18 @@ pages:
         <p><strong>Remember:</strong> It's okay to not know some songs, and it's great if you know others really well! Just have fun and be honest with your choices.</p>
         <p>Enjoy rating the songs and telling us how well you know them! Your opinion is important, so thank you for sharing it with us! 🎵🎶</p>      
       stimuli:
-          C1: configs/resources/musicfiles/Trail1/remix_V1_normalized_stereo.wav
-          C2: configs/resources/musicfiles/Trail2/remix_V1_normalized_stereo.wav
-          C3: configs/resources/musicfiles/Trail3/remix_V1_normalized_stereo.wav
-          C4: configs/resources/musicfiles/Trail4/remix_V1_normalized_stereo.wav
-          C5: configs/resources/musicfiles/Trail5/remix_V1_normalized_stereo.wav
-          C6: configs/resources/musicfiles/Trail6/remix_V1_normalized_stereo.wav
-          C7: configs/resources/musicfiles/Trail7/remix_V1_normalized_stereo.wav
-          C8: configs/resources/musicfiles/Trail8/remix_V1_normalized_stereo.wav
-          C9: configs/resources/musicfiles/Trail9/remix_V1_normalized_stereo.wav
-          C10: configs/resources/musicfiles/Trail10/remix_V1_normalized_stereo.wav
-          C11: configs/resources/musicfiles/Trail11/remix_V1_normalized_stereo.wav
-          C12: configs/resources/musicfiles/Trail12/remix_V1_normalized_stereo.wav
+          C1: configs/resources/songs/Trail1/remix_V1_normalized_stereo.wav
+          C2: configs/resources/songs/Trail2/remix_V1_normalized_stereo.wav
+          C3: configs/resources/songs/Trail3/remix_V1_normalized_stereo.wav
+          C4: configs/resources/songs/Trail4/remix_V1_normalized_stereo.wav
+          C5: configs/resources/songs/Trail5/remix_V1_normalized_stereo.wav
+          C6: configs/resources/songs/Trail6/remix_V1_normalized_stereo.wav
+          C7: configs/resources/songs/Trail7/remix_V1_normalized_stereo.wav
+          C8: configs/resources/songs/Trail8/remix_V1_normalized_stereo.wav
+          C9: configs/resources/songs/Trail9/remix_V1_normalized_stereo.wav
+          C10: configs/resources/songs/Trail10/remix_V1_normalized_stereo.wav
+          C11: configs/resources/songs/Trail11/remix_V1_normalized_stereo.wav
+          C12: configs/resources/songs/Trail12/remix_V1_normalized_stereo.wav
       response:
         - value: Not Familiar at All
           label: Not Familiar at All
