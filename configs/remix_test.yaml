@@ -69,7 +69,6 @@ pages:
       id: volume
       name: Volume Calibration
       content: |
-        <p><strong>Volume Calibration page.</strong></p>
         <p>Before we begin, <strong>please ensure your computer's volume is turned up all the way to 100%</strong>. This is crucial for the calibration process.</p>
         <p>In this part of the test, we want to make sure that the volume of the sounds is just right for you. You'll be listening to a short sound clip, and we'd like you to adjust the volume to the most comfortable level for your ears using our on-screen slider.</p>
         <p>When you're ready, click the "Play" button to listen to the sound. Then, use the slider to increase or decrease the volume until it's comfortable for you. Don't worry, there's no right or wrong answer!</p>
