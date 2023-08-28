@@ -75,7 +75,7 @@ pages:
       defaultVolume: 0.8
     - type: generic
       id: training_page_intro
-      name: Training
+      name: Training Introduction
       content: |
         <!DOCTYPE html>
         <html>
@@ -84,9 +84,8 @@ pages:
         </head>
         <body>
 
-        <h2><strong>Training Introduction</strong></h2>
-
-        <p>Before we dive into the actual test, we want to make sure you're well-prepared and understand the process. This training will provide you with the necessary tools and insights to tackle the main test with confidence.!</p>        
+        <p>Before we dive into the actual test, we want to make sure you're well-prepared and understand the process.</p>
+        <p>This training will provide you with the necessary tools and insights to tackle the main test with confidence.</p>        
         <img src="../configs/resources/images/practice.jpg" width="300" height="300">
     
         <h3><strong>Keep in Mind:</strong></h3>
@@ -94,9 +93,7 @@ pages:
             <li>This is just a training session, so there's <strong>no pressure</strong> to be perfect.</li>
             <li>Our aim is to make you comfortable with the format, so enjoy the session and have <strong>fun</strong>!</li>
         </ul>
-    
-        <p>Thank you for your attention. Let's begin the training! If you have any queries, we are here to assist you.</p>
-    
+  
         </body>
     
         </html>        
@@ -105,6 +102,16 @@ pages:
           - type: mushra
             id: training01
             name: Training
+            content: |
+              <html lang="en">
+              <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              </head>
+              <body>
+                  <p>🎶 🎤 🎧 📻 🎸 🎹 🎺 🎻 🥁 🎷</p>
+              </body>
+              </html>
             showWaveform: true
             enableLooping: true 
             reference: configs/resources/musicfiles/Training1/remix_V1_normalized_stereo.wav
@@ -119,6 +126,16 @@ pages:
           - type: mushra
             id: training2
             name: Training
+            content: |
+              <html lang="en">
+              <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              </head>
+              <body>
+                  <p>🎶 🎤 🎧 📻 🎸 🎹 🎺 🎻 🥁 🎷</p>
+              </body>
+              </html>            
             showWaveform: true
             enableLooping: true 
             reference: configs/resources/musicfiles/Training2/remix_V1_normalized_stereo.wav
@@ -133,6 +150,16 @@ pages:
           - type: mushra
             id: training3
             name: Training
+            content: |
+              <html lang="en">
+              <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              </head>
+              <body>
+                  <p>🎶 🎤 🎧 📻 🎸 🎹 🎺 🎻 🥁 🎷</p>
+              </body>
+              </html>            
             showWaveform: true
             enableLooping: true 
             reference: configs/resources/musicfiles/Training3/remix_V1_normalized_stereo.wav
@@ -185,6 +212,16 @@ pages:
           - type: mushra
             id: trail01
             name: Listening Test
+            content: |
+              <html lang="en">
+              <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              </head>
+              <body>
+                  <p>🎶 🎤 🎧 📻 🎸 🎹 🎺 🎻 🥁 🎷</p>
+              </body>
+              </html>            
             showWaveform: true
             enableLooping: true 
             reference: configs/resources/musicfiles/Trail1/remix_V1_normalized_stereo.wav
@@ -199,6 +236,16 @@ pages:
           - type: mushra
             id: trail02
             name: Listening Test
+            content: |
+              <html lang="en">
+              <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              </head>
+              <body>
+                  <p>🎶 🎤 🎧 📻 🎸 🎹 🎺 🎻 🥁 🎷</p>
+              </body>
+              </html>               
             showWaveform: true
             enableLooping: true 
             reference: configs/resources/musicfiles/Trail2/remix_V1_normalized_stereo.wav
@@ -214,7 +261,17 @@ pages:
             id: trail03
             name: Listening Test
             showWaveform: true
-            enableLooping: true 
+            enableLooping: true
+            content: |
+              <html lang="en">
+              <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              </head>
+              <body>
+                  <p>🎶 🎤 🎧 📻 🎸 🎹 🎺 🎻 🥁 🎷</p>
+              </body>
+              </html>               
             reference: configs/resources/musicfiles/Trail3/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
@@ -227,6 +284,16 @@ pages:
           - type: mushra
             id: trail04
             name: Listening Test
+            content: |
+              <html lang="en">
+              <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              </head>
+              <body>
+                  <p>🎶 🎤 🎧 📻 🎸 🎹 🎺 🎻 🥁 🎷</p>
+              </body>
+              </html>               
             showWaveform: true
             enableLooping: true 
             reference: configs/resources/musicfiles/Trail4/remix_V1_normalized_stereo.wav
@@ -242,7 +309,17 @@ pages:
             id: trail05
             name: Listening Test
             showWaveform: true
-            enableLooping: true 
+            enableLooping: true
+            content: |
+              <html lang="en">
+              <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              </head>
+              <body>
+                  <p>🎶 🎤 🎧 📻 🎸 🎹 🎺 🎻 🥁 🎷</p>
+              </body>
+              </html>               
             reference: configs/resources/musicfiles/Trail5/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
@@ -257,6 +334,16 @@ pages:
             name: Listening Test
             showWaveform: true
             enableLooping: true 
+            content: |
+              <html lang="en">
+              <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              </head>
+              <body>
+                  <p>🎶 🎤 🎧 📻 🎸 🎹 🎺 🎻 🥁 🎷</p>
+              </body>
+              </html>               
             reference: configs/resources/musicfiles/Trail6/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
@@ -271,6 +358,16 @@ pages:
             name: Listening Test
             showWaveform: true
             enableLooping: true 
+            content: |
+              <html lang="en">
+              <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              </head>
+              <body>
+                  <p>🎶 🎤 🎧 📻 🎸 🎹 🎺 🎻 🥁 🎷</p>
+              </body>
+              </html>               
             reference: configs/resources/musicfiles/Trail7/remix_V1_normalized_stereo.wav
             createAnchor35: false
             createAnchor70: false
@@ -283,6 +380,16 @@ pages:
           - type: mushra
             id: trail08
             name: Listening Test
+            content: |
+              <html lang="en">
+              <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              </head>
+              <body>
+                  <p>🎶 🎤 🎧 📻 🎸 🎹 🎺 🎻 🥁 🎷</p>
+              </body>
+              </html>               
             showWaveform: true
             enableLooping: true 
             reference: configs/resources/musicfiles/Trail8/remix_V1_normalized_stereo.wav
@@ -297,6 +404,16 @@ pages:
           - type: mushra
             id: trail09
             name: Listening Test
+            content: |
+              <html lang="en">
+              <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              </head>
+              <body>
+                  <p>🎶 🎤 🎧 📻 🎸 🎹 🎺 🎻 🥁 🎷</p>
+              </body>
+              </html>               
             showWaveform: true
             enableLooping: true 
             reference: configs/resources/musicfiles/Trail9/remix_V1_normalized_stereo.wav
@@ -311,6 +428,16 @@ pages:
           - type: mushra
             id: trail10
             name: Listening Test
+            content: |
+              <html lang="en">
+              <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              </head>
+              <body>
+                  <p>🎶 🎤 🎧 📻 🎸 🎹 🎺 🎻 🥁 🎷</p>
+              </body>
+              </html>               
             showWaveform: true
             enableLooping: true 
             reference: configs/resources/musicfiles/Trail10/remix_V1_normalized_stereo.wav
@@ -325,6 +452,16 @@ pages:
           - type: mushra
             id: trail11
             name: Listening Test
+            content: |
+              <html lang="en">
+              <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              </head>
+              <body>
+                  <p>🎶 🎤 🎧 📻 🎸 🎹 🎺 🎻 🥁 🎷</p>
+              </body>
+              </html>               
             showWaveform: true
             enableLooping: true 
             reference: configs/resources/musicfiles/Trail11/remix_V1_normalized_stereo.wav
@@ -339,6 +476,16 @@ pages:
           - type: mushra
             id: trail12
             name: Listening Test
+            content: |
+              <html lang="en">
+              <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              </head>
+              <body>
+                  <p>🎶 🎤 🎧 📻 🎸 🎹 🎺 🎻 🥁 🎷</p>
+              </body>
+              </html>               
             showWaveform: true
             enableLooping: true 
             reference: configs/resources/musicfiles/Trail12/remix_V1_normalized_stereo.wav
