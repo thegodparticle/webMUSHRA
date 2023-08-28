@@ -38,7 +38,9 @@ pages:
         <ul>
           <li>You are free to listen to the versions <strong>in any order you like</strong>.</li>
           <li>You can listen to each version as <strong>many times</strong> as you want before assigning a grade.</li>
-          <li>Each version will continue in a loop mode.  You can switch to another version at any time and the new version will start at where the previous version stops. You can switch back and forth between two versions to facilitate comparison.</li>          
+          <li>Click on the play button to start listening to the song. If you wish to pause the song at any time, simply click the pause button again.</strong>.</li>
+          <li>Each version will continue in a loop mode. You can switch to another version at any time and the new version will start at where the previous version stops. You can switch back and forth between two versions to facilitate comparison.</li>
+          <li>To rate a specific part of the song, ensure that the song is either playing or paused at that particular segment.</li>  
           <li>Remember, you're the expert here! Your grades will help us understand your <strong>musical preferences</strong>.</li>
         </ul>
         
@@ -67,10 +69,12 @@ pages:
       id: volume
       name: Volume Calibration
       content: |
-          <p>Welcome to the Volume Calibration page.</p>
-          <p>In this part of the test, we want to make sure that the volume of the sounds is just right for you. You'll be listening to a short sound clip, and we'd like you to adjust the volume to the most comfortable level for your ears.</p>
-          <p>When you're ready, click the "Play" button to listen to the sound. Then, use the slider to increase or decrease the volume until it's comfortable for you. Don't worry, there's no right or wrong answer!</p>
-          <p>Once you've set the volume to your liking, you can move on to the next part of the test. Have fun!</p>
+        <p><strong>Volume Calibration page.</strong></p>
+        <p>Before we begin, <strong>please ensure your computer's volume is turned up all the way to 100%</strong>. This is crucial for the calibration process.</p>
+        <p>In this part of the test, we want to make sure that the volume of the sounds is just right for you. You'll be listening to a short sound clip, and we'd like you to adjust the volume to the most comfortable level for your ears using our on-screen slider.</p>
+        <p>When you're ready, click the "Play" button to listen to the sound. Then, use the slider to increase or decrease the volume until it's comfortable for you. Don't worry, there's no right or wrong answer!</p>
+        <p><strong>Volume Consistency:</strong> Once you've calibrated the volume to a comfortable level, please ensure to maintain that same volume throughout the entirety of the test. This ensures that your experience is consistent and the test results are accurate. Refrain from making any further adjustments to the volume after this calibration.</p>
+        <p>Once you've set and confirmed the volume, you can move on to the next part of the test. Have fun!</p>
       stimulus: configs/resources/musicfiles/Calibration/remix_V1_normalized_stereo.wav  
       defaultVolume: 0.8
     - type: generic
@@ -86,8 +90,6 @@ pages:
 
         <p>Before we dive into the actual test, we want to make sure you're well-prepared and understand the process.</p>
         <p>This training will provide you with the necessary tools and insights to tackle the main test with confidence.</p>        
-        <img src="../configs/resources/images/practice.jpg" width="300" height="300">
-    
         <h3><strong>Keep in Mind:</strong></h3>
         <ul>
             <li>This is just a training session, so there's <strong>no pressure</strong> to be perfect.</li>
@@ -122,7 +124,8 @@ pages:
                 C1: configs/resources/musicfiles/Training1/remix_V2_normalized_stereo.wav
                 C2: configs/resources/musicfiles/Training1/remix_V3_normalized_stereo.wav
                 C3: configs/resources/musicfiles/Training1/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Training1/remix_V5_normalized_stereo.wav                
+                C4: configs/resources/musicfiles/Training1/remix_V5_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Training1/remix_V6_normalized_stereo.wav                
           - type: mushra
             id: training2
             name: Training
@@ -146,7 +149,8 @@ pages:
                 C1: configs/resources/musicfiles/Training2/remix_V2_normalized_stereo.wav
                 C2: configs/resources/musicfiles/Training2/remix_V3_normalized_stereo.wav
                 C3: configs/resources/musicfiles/Training2/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Training2/remix_V5_normalized_stereo.wav       
+                C4: configs/resources/musicfiles/Training2/remix_V5_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Training2/remix_V6_normalized_stereo.wav                
           - type: mushra
             id: training3
             name: Training
@@ -170,7 +174,9 @@ pages:
                 C1: configs/resources/musicfiles/Training3/remix_V2_normalized_stereo.wav
                 C2: configs/resources/musicfiles/Training3/remix_V3_normalized_stereo.wav
                 C3: configs/resources/musicfiles/Training3/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Training3/remix_V5_normalized_stereo.wav                 
+                C4: configs/resources/musicfiles/Training3/remix_V5_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Training3/remix_V6_normalized_stereo.wav                
+            
     - type: generic
       id: test_page_intro
       name: Test Introduction
@@ -232,7 +238,9 @@ pages:
                 C1: configs/resources/musicfiles/Trail1/remix_V2_normalized_stereo.wav
                 C2: configs/resources/musicfiles/Trail1/remix_V3_normalized_stereo.wav
                 C3: configs/resources/musicfiles/Trail1/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail1/remix_V5_normalized_stereo.wav  
+                C4: configs/resources/musicfiles/Trail1/remix_V5_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Trail1/remix_V6_normalized_stereo.wav                
+                
           - type: mushra
             id: trail02
             name: Listening Test
@@ -256,7 +264,9 @@ pages:
                 C1: configs/resources/musicfiles/Trail2/remix_V2_normalized_stereo.wav
                 C2: configs/resources/musicfiles/Trail2/remix_V3_normalized_stereo.wav
                 C3: configs/resources/musicfiles/Trail2/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail2/remix_V5_normalized_stereo.wav  
+                C4: configs/resources/musicfiles/Trail2/remix_V5_normalized_stereo.wav 
+                C5: configs/resources/musicfiles/Trail2/remix_V6_normalized_stereo.wav                
+                
           - type: mushra
             id: trail03
             name: Listening Test
@@ -280,7 +290,9 @@ pages:
                 C1: configs/resources/musicfiles/Trail3/remix_V2_normalized_stereo.wav
                 C2: configs/resources/musicfiles/Trail3/remix_V3_normalized_stereo.wav
                 C3: configs/resources/musicfiles/Trail3/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail3/remix_V5_normalized_stereo.wav  
+                C4: configs/resources/musicfiles/Trail3/remix_V5_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Trail3/remix_V6_normalized_stereo.wav                
+                
           - type: mushra
             id: trail04
             name: Listening Test
@@ -304,7 +316,8 @@ pages:
                 C1: configs/resources/musicfiles/Trail4/remix_V2_normalized_stereo.wav
                 C2: configs/resources/musicfiles/Trail4/remix_V3_normalized_stereo.wav
                 C3: configs/resources/musicfiles/Trail4/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail4/remix_V5_normalized_stereo.wav  
+                C4: configs/resources/musicfiles/Trail4/remix_V5_normalized_stereo.wav 
+                C5: configs/resources/musicfiles/Trail4/remix_V6_normalized_stereo.wav                 
           - type: mushra
             id: trail05
             name: Listening Test
@@ -328,7 +341,9 @@ pages:
                 C1: configs/resources/musicfiles/Trail5/remix_V2_normalized_stereo.wav
                 C2: configs/resources/musicfiles/Trail5/remix_V3_normalized_stereo.wav
                 C3: configs/resources/musicfiles/Trail5/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail5/remix_V5_normalized_stereo.wav  
+                C4: configs/resources/musicfiles/Trail5/remix_V5_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Trail5/remix_V6_normalized_stereo.wav                 
+                
           - type: mushra
             id: trail06
             name: Listening Test
@@ -352,7 +367,8 @@ pages:
                 C1: configs/resources/musicfiles/Trail6/remix_V2_normalized_stereo.wav
                 C2: configs/resources/musicfiles/Trail6/remix_V3_normalized_stereo.wav
                 C3: configs/resources/musicfiles/Trail6/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail6/remix_V5_normalized_stereo.wav 
+                C4: configs/resources/musicfiles/Trail6/remix_V5_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Trail6/remix_V6_normalized_stereo.wav                   
           - type: mushra
             id: trail07
             name: Listening Test
@@ -376,7 +392,8 @@ pages:
                 C1: configs/resources/musicfiles/Trail7/remix_V2_normalized_stereo.wav
                 C2: configs/resources/musicfiles/Trail7/remix_V3_normalized_stereo.wav
                 C3: configs/resources/musicfiles/Trail7/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail7/remix_V5_normalized_stereo.wav 
+                C4: configs/resources/musicfiles/Trail7/remix_V5_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Trail7/remix_V6_normalized_stereo.wav                
           - type: mushra
             id: trail08
             name: Listening Test
@@ -400,7 +417,9 @@ pages:
                 C1: configs/resources/musicfiles/Trail8/remix_V2_normalized_stereo.wav
                 C2: configs/resources/musicfiles/Trail8/remix_V3_normalized_stereo.wav
                 C3: configs/resources/musicfiles/Trail8/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail8/remix_V5_normalized_stereo.wav 
+                C4: configs/resources/musicfiles/Trail8/remix_V5_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Trail8/remix_V6_normalized_stereo.wav                
+                
           - type: mushra
             id: trail09
             name: Listening Test
@@ -424,7 +443,9 @@ pages:
                 C1: configs/resources/musicfiles/Trail9/remix_V2_normalized_stereo.wav
                 C2: configs/resources/musicfiles/Trail9/remix_V3_normalized_stereo.wav
                 C3: configs/resources/musicfiles/Trail9/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail9/remix_V5_normalized_stereo.wav 
+                C4: configs/resources/musicfiles/Trail9/remix_V5_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Trail9/remix_V6_normalized_stereo.wav                
+                
           - type: mushra
             id: trail10
             name: Listening Test
@@ -448,7 +469,9 @@ pages:
                 C1: configs/resources/musicfiles/Trail10/remix_V2_normalized_stereo.wav
                 C2: configs/resources/musicfiles/Trail10/remix_V3_normalized_stereo.wav
                 C3: configs/resources/musicfiles/Trail10/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail10/remix_V5_normalized_stereo.wav 
+                C4: configs/resources/musicfiles/Trail10/remix_V5_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Trail10/remix_V6_normalized_stereo.wav                
+                
           - type: mushra
             id: trail11
             name: Listening Test
@@ -472,7 +495,9 @@ pages:
                 C1: configs/resources/musicfiles/Trail11/remix_V2_normalized_stereo.wav
                 C2: configs/resources/musicfiles/Trail11/remix_V3_normalized_stereo.wav
                 C3: configs/resources/musicfiles/Trail11/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail11/remix_V5_normalized_stereo.wav 
+                C4: configs/resources/musicfiles/Trail11/remix_V5_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Trail11/remix_V6_normalized_stereo.wav                
+                
           - type: mushra
             id: trail12
             name: Listening Test
@@ -496,7 +521,8 @@ pages:
                 C1: configs/resources/musicfiles/Trail12/remix_V2_normalized_stereo.wav
                 C2: configs/resources/musicfiles/Trail12/remix_V3_normalized_stereo.wav
                 C3: configs/resources/musicfiles/Trail12/remix_V4_normalized_stereo.wav
-                C4: configs/resources/musicfiles/Trail12/remix_V5_normalized_stereo.wav                  
+                C4: configs/resources/musicfiles/Trail12/remix_V5_normalized_stereo.wav
+                C5: configs/resources/musicfiles/Trail11/remix_V6_normalized_stereo.wav                
     - type: likert_multi_stimulus
       id: lms4
       name: Familiarity Rating for Songs
@@ -511,11 +537,11 @@ pages:
         </ol>
         <blockquote>
           <ul>
-            <li>Not Familiar at All</li>
-            <li>Not Very Familiar</li>
-            <li>Somewhat Familiar</li>
-            <li>Quite Familiar</li>
-            <li>Very Familiar</li>            
+            <li>Not Familiar at All - I've never heard of it</li>
+            <li>Slightly Familiar - I've heard it a few times</li>
+            <li>Moderately Familiar - I recognize it and can hum along</li>
+            <li>Very Familiar - I know the lyrics and could sing along</li>
+            <li>Extremely Familiar - I've listened to it countless times; it could be on my playlist</li>
           </ul>
         </blockquote>
         <p><strong>Remember:</strong> It's okay to not know some songs, and it's great if you know others really well! Just have fun and be honest with your choices.</p>
@@ -539,23 +565,23 @@ pages:
           img: configs/resources/images/star_off.png
           imgSelected: configs/resources/images/star_on.png
           imgHigherResponseSelected: configs/resources/images/star_on.png
-        - value: Not Very Familiar
-          label: Not Very Familiar
+        - value: Slightly Familiar
+          label: Slightly Familiar
           img: configs/resources/images/star_off.png
           imgSelected: configs/resources/images/star_on.png
           imgHigherResponseSelected: configs/resources/images/star_on.png
-        - value: Somewhat Familiar
-          label: Somewhat Familiar
-          img: configs/resources/images/star_off.png
-          imgSelected: configs/resources/images/star_on.png
-          imgHigherResponseSelected: configs/resources/images/star_on.png
-        - value: Quite Familiar
-          label: Quite Familiar
+        - value: Moderately Familiar
+          label: Moderately Familiar
           img: configs/resources/images/star_off.png
           imgSelected: configs/resources/images/star_on.png
           imgHigherResponseSelected: configs/resources/images/star_on.png
         - value: Very Familiar
           label: Very Familiar
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+        - value: Extremely Familiar
+          label: Extremely Familiar
           img: configs/resources/images/star_off.png
           imgSelected: configs/resources/images/star_on.png
           imgHigherResponseSelected: configs/resources/images/star_on.png    
