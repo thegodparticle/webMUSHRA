@@ -29,7 +29,7 @@ pages:
         
         <h3><strong>How the Test Works:</strong></h3>
         <ul>
-          <li>In each trial, you will listen to <strong>5 different remixed versions</strong> of a song.</li>
+          <li>In each trial, you will listen to <strong>6 different remixed versions</strong> of a song.</li>
           <li>Your job is to listen to each version and decide which one you find the <strong>most enjoyable</strong>. This version will be your <strong>reference</strong>, and you'll assign it a grade of <strong>100</strong>.</li>
           <li>After you've selected the most enjoyable version, you will compare the other versions to this reference. Assign scores from <strong>0 to 100</strong> based on how much you like each version compared to your reference.</li>
         </ul>
@@ -521,7 +521,7 @@ pages:
                 C2: configs/resources/songs/Trail12/remix_V3_normalized_stereo.wav
                 C3: configs/resources/songs/Trail12/remix_V4_normalized_stereo.wav
                 C4: configs/resources/songs/Trail12/remix_V5_normalized_stereo.wav
-                C5: configs/resources/songs/Trail11/remix_V6_normalized_stereo.wav                
+                C5: configs/resources/songs/Trail12/remix_V6_normalized_stereo.wav                
     - type: likert_multi_stimulus
       id: lms4
       name: Familiarity Rating for Songs
