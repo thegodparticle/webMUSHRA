@@ -49,6 +49,17 @@ pages:
           <li><strong>100</strong>: The version you find most enjoyable. You'll assign this score to your reference version.</li>
           <li><strong>0-100</strong>: For other versions, assign a score based on how much you like them compared to your reference. We encourage you to use the whole range of grading scale.</li>
         </ul>
+            <h3><strong>Watch the Video:</strong></h3>
+        
+        <p>For a better understanding and visualization of the instructions provided,<strong>watch the video below</strong>. It will guide you through the test procedure step-by-step.</p>
+    
+        <div style="display: flex; justify-content: center;">
+            <video width="640" height="480" controls style="border: 5px solid #17a2b8; border-radius: 10px;">
+                <source src="../configs/resources/images/ListeningTestInstructions.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
         
         <h3><strong>Important Notes:</strong></h3>
         <ul>
