@@ -614,18 +614,18 @@ pages:
         </blockquote>
         <p>Listen to each voice clip and provide your feedback. Thanks for sharing your thoughts with us! 🎵</p>      
       stimuli:
-          C1: configs/resources/songs/Trail1/vocal_section.wav
-          C2: configs/resources/songs/Trail2/vocal_section.wav
-          C3: configs/resources/songs/Trail3/vocal_section.wav
-          C4: configs/resources/songs/Trail4/vocal_section.wav
-          C5: configs/resources/songs/Trail5/vocal_section.wav
-          C6: configs/resources/songs/Trail6/vocal_section.wav
-          C7: configs/resources/songs/Trail7/vocal_section.wav
-          C8: configs/resources/songs/Trail8/vocal_section.wav
-          C9: configs/resources/songs/Trail9/vocal_section.wav
-          C10: configs/resources/songs/Trail10/vocal_section.wav
-          C11: configs/resources/songs/Trail11/vocal_section.wav
-          C12: configs/resources/songs/Trail12/vocal_section.wav        
+          C1: configs/resources/songs/Trail1/vocal_section_normalized_stereo.wav
+          C2: configs/resources/songs/Trail2/vocal_section_normalized_stereo.wav
+          C3: configs/resources/songs/Trail3/vocal_section_normalized_stereo.wav
+          C4: configs/resources/songs/Trail4/vocal_section_normalized_stereo.wav
+          C5: configs/resources/songs/Trail5/vocal_section_normalized_stereo.wav
+          C6: configs/resources/songs/Trail6/vocal_section_normalized_stereo.wav
+          C7: configs/resources/songs/Trail7/vocal_section_normalized_stereo.wav
+          C8: configs/resources/songs/Trail8/vocal_section_normalized_stereo.wav
+          C9: configs/resources/songs/Trail9/vocal_section_normalized_stereo.wav
+          C10: configs/resources/songs/Trail10/vocal_section_normalized_stereo.wav
+          C11: configs/resources/songs/Trail11/vocal_section_normalized_stereo.wav
+          C12: configs/resources/songs/Trail12/vocal_section_normalized_stereo.wav        
       response:
         - value: Very Unpleasant
           label: Very Unpleasant
