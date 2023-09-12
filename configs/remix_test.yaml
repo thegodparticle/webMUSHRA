@@ -534,12 +534,12 @@ pages:
                 C4: configs/resources/songs/Trail12/remix_V5_normalized_stereo.wav
                 C5: configs/resources/songs/Trail12/remix_V6_normalized_stereo.wav                
     - type: likert_multi_stimulus
-      id: lms4
+      id: LMS_FamilarityRating
       name: Familiarity Rating for Songs
       mustRate: true
       randomize: true
       content: |
-        <p><strong>Hello!</strong> We have a fun activity for you to tell us how well you know different songs.</p>
+        <p>We have a fun activity for you to tell us how well you know different songs.</p>
         <p><strong>Here's what you need to do:</strong></p>
         <ol>
           <li><strong>Step 1:</strong> You'll listen to a list of songs. We want to know how familiar you are with each song.</li>
@@ -569,6 +569,36 @@ pages:
           C10: configs/resources/songs/Trail10/remix_V1_normalized_stereo.wav
           C11: configs/resources/songs/Trail11/remix_V1_normalized_stereo.wav
           C12: configs/resources/songs/Trail12/remix_V1_normalized_stereo.wav
+    - type: likert_multi_stimulus
+      id: LMS_SingerRating
+      name: Singer's Voice Pleasantness Rating
+      mustRate: true
+      randomize: true
+      content: |
+        <p>You're about to rate the pleasantness of different singer's voices. For this activity, you will only hear the voice component without the music. Listen carefully and indicate how each voice feels to you using the scale provided:</p>
+        <blockquote>
+          <ul>
+            <li>Very Unpleasant - The voice is not appealing to you at all.</li>
+            <li>Unpleasant - You find the voice less enjoyable.</li>
+            <li>Neutral - You have no strong feelings about the voice.</li>
+            <li>Pleasant - You find the voice enjoyable to listen to.</li>
+            <li>Very Pleasant - You really like the voice and find it highly enjoyable.</li>
+          </ul>
+        </blockquote>
+        <p>Listen to each voice clip and provide your honest feedback. Thanks for sharing your thoughts with us! 🎵</p>      
+      stimuli:
+          C1: configs/resources/songs/Trail1/vocal_section.wav
+          C2: configs/resources/songs/Trail2/vocal_section.wav
+          C3: configs/resources/songs/Trail3/vocal_section.wav
+          C4: configs/resources/songs/Trail4/vocal_section.wav
+          C5: configs/resources/songs/Trail5/vocal_section.wav
+          C6: configs/resources/songs/Trail6/vocal_section.wav
+          C7: configs/resources/songs/Trail7/vocal_section.wav
+          C8: configs/resources/songs/Trail8/vocal_section.wav
+          C9: configs/resources/songs/Trail9/vocal_section.wav
+          C10: configs/resources/songs/Trail10/vocal_section.wav
+          C11: configs/resources/songs/Trail11/vocal_section.wav
+          C12: configs/resources/songs/Trail12/vocal_section.wav        
       response:
         - value: Not Familiar at All
           label: Not Familiar at All
@@ -594,7 +624,8 @@ pages:
           label: Extremely Familiar
           img: configs/resources/images/star_off.png
           imgSelected: configs/resources/images/star_on.png
-          imgHigherResponseSelected: configs/resources/images/star_on.png    
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+        
     - type: finish
       name: Thank you
       content: |

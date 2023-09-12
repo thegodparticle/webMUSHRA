@@ -60,10 +60,10 @@ pages:
                         <button class="survey-button">Completely disagree</button>
                     </li>
                     <li class="survey-option">
-                        <button class="survey-button">Mostly disagree</button>
+                        <button class="survey-button">Strongly disagree</button>
                     </li>
                     <li class="survey-option">
-                        <button class="survey-button">Slightly disagree</button>
+                        <button class="survey-button">Disagree</button>
                     </li>
                     <li class="survey-option">
                         <button class="survey-button">Neither agree nor disagree</button>
@@ -72,10 +72,10 @@ pages:
                         <button class="survey-button">Slightly agree</button>
                     </li>
                     <li class="survey-option">
-                        <button class="survey-button">Mostly agree</button>
+                        <button class="survey-button">Slightly agree</button>
                     </li>
                     <li class="survey-option">
-                        <button class="survey-button">Completely agree</button>
+                        <button class="survey-button">Slightly agree</button>
                     </li>
                 </ul>
             </div>
