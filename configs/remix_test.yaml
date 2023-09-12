@@ -534,12 +534,12 @@ pages:
                 C4: configs/resources/songs/Trail12/remix_V5_normalized_stereo.wav
                 C5: configs/resources/songs/Trail12/remix_V6_normalized_stereo.wav                
     - type: likert_multi_stimulus
-      id: LMS_FamilarityRating
+      id: lms_familarity
       name: Familiarity Rating for Songs
       mustRate: true
       randomize: true
       content: |
-        <p>We have a fun activity for you to tell us how well you know different songs.</p>
+        <p><strong>Hello!</strong> We have a fun activity for you to tell us how well you know different songs.</p>
         <p><strong>Here's what you need to do:</strong></p>
         <ol>
           <li><strong>Step 1:</strong> You'll listen to a list of songs. We want to know how familiar you are with each song.</li>
@@ -547,11 +547,11 @@ pages:
         </ol>
         <blockquote>
           <ul>
-            <li>Never Heard of It - You've never encountered this song before.</li>
-            <li>Heard of It - The song sounds vaguely familiar, but you can't quite place it.</li>
-            <li>Know a Little - You recognize parts of the song or its chorus.</li>
-            <li>Know a Fair Amount - You're familiar with most parts of the song and might know some lyrics.</li>
-            <li>Know It Well - This song is very familiar; you know its lyrics and could sing along.</li>
+            <li>Not Familiar at All - I've never heard of it</li>
+            <li>Slightly Familiar - I've heard it a few times</li>
+            <li>Moderately Familiar - I recognize it and can hum along</li>
+            <li>Very Familiar - I know the lyrics and could sing along</li>
+            <li>Extremely Familiar - I've listened to it countless times; it could be on my playlist</li>
           </ul>
         </blockquote>
         <p><strong>Remember:</strong> It's okay to not know some songs, and it's great if you know others really well! Just have fun and be honest with your choices.</p>
@@ -570,38 +570,39 @@ pages:
           C11: configs/resources/songs/Trail11/remix_V1_normalized_stereo.wav
           C12: configs/resources/songs/Trail12/remix_V1_normalized_stereo.wav
       response:
-        - value: Never Heard of It
-          label: Never Heard of It
+        - value: Not Familiar at All
+          label: Not Familiar at All
           img: configs/resources/images/star_off.png
           imgSelected: configs/resources/images/star_on.png
           imgHigherResponseSelected: configs/resources/images/star_on.png
-        - value: Heard of It
-          label: Heard of It
+        - value: Slightly Familiar
+          label: Slightly Familiar
           img: configs/resources/images/star_off.png
           imgSelected: configs/resources/images/star_on.png
           imgHigherResponseSelected: configs/resources/images/star_on.png
-        - value: Know a Little
-          label: Know a Little
+        - value: Moderately Familiar
+          label: Moderately Familiar
           img: configs/resources/images/star_off.png
           imgSelected: configs/resources/images/star_on.png
           imgHigherResponseSelected: configs/resources/images/star_on.png
-        - value: Know a Fair Amount
-          label: Know a Fair Amount
+        - value: Very Familiar
+          label: Very Familiar
           img: configs/resources/images/star_off.png
           imgSelected: configs/resources/images/star_on.png
           imgHigherResponseSelected: configs/resources/images/star_on.png
-        - value: Know It Well
-          label: Know It Well
+        - value: Extremely Familiar
+          label: Extremely Familiar
           img: configs/resources/images/star_off.png
           imgSelected: configs/resources/images/star_on.png
-          imgHigherResponseSelected: configs/resources/images/star_on.png          
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+          
     - type: likert_multi_stimulus
-      id: LMS_SingerRating
-      name: Singer's Voice Pleasantness Rating
+      id: lms_voice
+      name:  Voice Pleasantness Rating
       mustRate: true
       randomize: true
       content: |
-        <p>You're about to rate the pleasantness of different singer's voices. For this activity, you will only hear the voice component without the music. Listen carefully and indicate how each voice feels to you using the scale provided:</p>
+       <p>You're about to rate the pleasantness of different singer's voices. For this activity, you will only hear the voice component without the music. Listen carefully and indicate how each voice feels to you using the scale provided:</p>
         <blockquote>
           <ul>
             <li>Very Unpleasant - The voice is not appealing to you at all.</li>
@@ -611,7 +612,7 @@ pages:
             <li>Very Pleasant - You really like the voice and find it highly enjoyable.</li>
           </ul>
         </blockquote>
-        <p>Listen to each voice clip and provide your honest feedback. Thanks for sharing your thoughts with us! 🎵</p>      
+        <p>Listen to each voice clip and provide your feedback. Thanks for sharing your thoughts with us! 🎵</p>      
       stimuli:
           C1: configs/resources/songs/Trail1/vocal_section.wav
           C2: configs/resources/songs/Trail2/vocal_section.wav
@@ -651,7 +652,8 @@ pages:
           img: configs/resources/images/star_off.png
           imgSelected: configs/resources/images/star_on.png
           imgHigherResponseSelected: configs/resources/images/star_on.png
-        
+
+          
     - type: finish
       name: Thank you
       content: |
