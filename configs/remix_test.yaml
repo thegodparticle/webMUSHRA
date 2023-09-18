@@ -13,14 +13,49 @@ pages:
       content: |
         <!DOCTYPE html>
         <html>
+        
         <head>
-          <title>Music Grading Test Instructions</title>
+            <title>Music Grading Test Instructions</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+            <style>
+                body {
+                    font-family: 'Poppins', sans-serif;
+                    background-color: #f4f4f4;
+                    padding: 20px;
+                }
+        
+                h2, h3 {
+                    color: #333;
+                    margin-bottom: 20px;
+                }
+        
+                ul {
+                    margin-left: 30px;
+                    margin-bottom: 20px;
+                }
+        
+                ul li {
+                    margin-bottom: 10px;
+                }
+        
+                .video-container {
+                    border: 5px solid #17a2b8;
+                    border-radius: 10px;
+                    overflow: hidden;
+                }
+        
+                video {
+                    width: 100%;
+                    border-radius: 10px;
+                }
+            </style>
         </head>
+        
         <body>
 
-        <h2><strong>Test Instructions</strong></h2>
-
-        <p>Hello and welcome to this music grading test! We're excited to have you here. In this test, you are going to listen to some remixed versions of a song and assign grades to them using a scale. Don't worry, it's going to be a <strong>fun and enjoyable</strong> experience!</p>
+        <div class="container mt-4 mb-4">
+            <h2 class="mb-3"><strong>Test Instructions</strong></h2>
         
         <h3><strong>Purpose of the Test:</strong></h3>
         <p>The purpose of this test is to help us understand your preferences for different remixed versions of a song. Your grades will help us figure out which versions you find the <strong>most enjoyable</strong>.</p>
@@ -36,9 +71,9 @@ pages:
         <ul>
           <li>You are free to listen to the versions <strong>in any order you like</strong>.</li>
           <li>You can listen to each version as <strong>many times</strong> as you want before assigning a grade.</li>
-          <li>Click on the play button to start listening to the song. If you wish to pause the song at any time, simply click the pause button again.</strong>.</li>
+          <li>Click on the play button to start listening to a version. If you wish to pause the version at any time, simply click the pause button again.</strong>.</li>
           <li>Each version will continue in a loop mode. You can switch to another version at any time and the new version will start at where the previous version stops. You can switch back and forth between two versions to facilitate comparison.</li>
-          <li>To rate a specific part of the song, ensure that the song is either playing or paused at that particular segment.</li>  
+          <li>To grade a specific version of the song, ensure that the version is either playing or paused.</li>  
           <li>Remember, you're the expert here! Your grades will help us understand your <strong>musical preferences</strong>.</li>
         </ul>
         
@@ -47,12 +82,13 @@ pages:
           <li><strong>100</strong>: The version you find most enjoyable. You'll assign this score to your reference version.</li>
           <li><strong>0-100</strong>: For other versions, assign a score based on how much you like them compared to your reference. We encourage you to use the whole range of grading scale.</li>
         </ul>
-            <h3><strong>Watch the Video:</strong></h3>
-        
+            
+        <h3><strong>Watch the Video:</strong></h3>
+        <br>
         <p>For a better understanding and visualization of the instructions provided,<strong>watch the video below</strong>. It will guide you through the test procedure step-by-step.</p>
-    
-        <div style="display: flex; justify-content: center;">
-            <video width="640" height="480" controls style="border: 5px solid #17a2b8; border-radius: 10px;">
+ 
+        <div class="video-container">
+            <video controls>
                 <source src="../configs/resources/images/ListeningTestInstructions.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -73,7 +109,7 @@ pages:
       id: consent_page
       name: Consent
       mustConsent: true
-      content: <p>You are participating in a listening test. For this, we want to store the answers you give to the following questions.<br>Do you give consent for this?</p>
+      content: <p>You are participating in a listening test. For this, we want to store the answers you give to the following questions. We will keep your information secure and confidential. <br>Do you give consent for this?</p>
     - type: volume
       id: volume
       name: Volume Calibration
@@ -205,6 +241,7 @@ pages:
             <ul>
                 <li>Select the version you find <strong>most enjoyable</strong> as your reference and assign it a grade of <strong>100</strong>.</li>
                 <li>Grade the other versions from <strong>0 to 100</strong> based on their comparison to your reference.</li>
+                <li>If you don’t hear big differences between two or more versions, it is fine to assign similar grades to them.</li>
                 <li>Feel free to listen in <strong>any order</strong> and as <strong>many times</strong> as you need.</li>
             </ul>
         
@@ -535,7 +572,7 @@ pages:
       mustRate: true
       randomize: true
       content: |
-        <p><strong>Hello!</strong> We have a fun activity for you to tell us how well you know different songs.</p>
+        <p> We have a fun activity for you to tell us how well you know different songs.</p>
         <p><strong>Here's what you need to do:</strong></p>
         <ol>
           <li><strong>Step 1:</strong> You'll listen to a list of songs. We want to know how familiar you are with each song.</li>
@@ -551,7 +588,7 @@ pages:
           </ul>
         </blockquote>
         <p><strong>Remember:</strong> It's okay to not know some songs, and it's great if you know others really well! Just have fun and be honest with your choices.</p>
-        <p>Enjoy rating the songs and telling us how well you know them! Your opinion is important, so thank you for sharing it with us! 🎵🎶</p>      
+        <p>Thank you! 🎵🎶</p>      
       stimuli:
           C1: configs/resources/songs/Trail1/remix_V1_normalized_stereo.wav
           C2: configs/resources/songs/Trail2/remix_V1_normalized_stereo.wav
@@ -598,11 +635,11 @@ pages:
       mustRate: true
       randomize: true
       content: |
-       <p>You're about to rate the pleasantness of different singer's voices. For this activity, you will only hear the voice component without the music. Listen carefully and indicate how each voice feels to you using the scale provided:</p>
+       <p>You're about to rate the pleasantness of different singers’ voices. For this activity, you will only hear the voice component without the music. Listen carefully and indicate how you feel about each voice using the scale provided:</p>
         <blockquote>
           <ul>
-            <li>Very Unpleasant - The voice is not appealing to you at all.</li>
-            <li>Unpleasant - You find the voice less enjoyable.</li>
+            <li>Very Unpleasant - You find the voice highly annoying and bothersome.</li>
+            <li>Unpleasant - You find the voice not enjoyable to listen to.</li>
             <li>Neutral - You have no strong feelings about the voice.</li>
             <li>Pleasant - You find the voice enjoyable to listen to.</li>
             <li>Very Pleasant - You really like the voice and find it highly enjoyable.</li>
