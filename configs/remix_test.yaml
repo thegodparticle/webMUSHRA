@@ -32,6 +32,7 @@ pages:
         
                 ul {
                     margin-left: 30px;
+                    margin-right: 30px;
                     margin-bottom: 20px;
                 }
         
@@ -43,6 +44,8 @@ pages:
                     border: 5px solid #17a2b8;
                     border-radius: 10px;
                     overflow: hidden;
+                    max-width: 640px;  /* Set to the width of the video */
+                    margin: 0 auto;   /* Auto margin to center the container */
                 }
         
                 video {
