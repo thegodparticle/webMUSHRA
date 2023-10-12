@@ -196,6 +196,7 @@ td.stopButton {
 #buttonReference {
 	margin-left:-0.4em !important;
 	margin : 0 auto;
+	display: none;
 }
 
 /* justifications of the display of the slider values */ 
